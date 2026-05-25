@@ -1,0 +1,4138 @@
+[
+  {
+    "id": 0,
+    "source": "guidelines_2006",
+    "number": "1.1",
+    "title": "Purpose",
+    "hierarchy": "I > 1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 1,
+    "source": "guidelines_2006",
+    "number": "1.2",
+    "title": "Objectives",
+    "hierarchy": "I > 1.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 2,
+    "source": "guidelines_2006",
+    "number": "1.3",
+    "title": "Scope of Application",
+    "hierarchy": "I > 1.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 3,
+    "source": "guidelines_2006",
+    "number": "1.4",
+    "title": "Ethics in Procurement",
+    "hierarchy": "I > 1.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 4,
+    "source": "guidelines_2006",
+    "number": "1.5",
+    "title": "Laws applicable to Procurement Actions",
+    "hierarchy": "I > 1.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 5,
+    "source": "guidelines_2006",
+    "number": "2.1",
+    "title": "National Procurement Agency",
+    "hierarchy": "2 > 2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 6,
+    "source": "guidelines_2006",
+    "number": "2.2",
+    "title": "Secretaries to the Line Ministries",
+    "hierarchy": "2 > 2.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 7,
+    "source": "guidelines_2006",
+    "number": "2.3",
+    "title": "Responsibilities of the Procuring Entity",
+    "hierarchy": "2 > 2.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 8,
+    "source": "guidelines_2006",
+    "number": "2.4",
+    "title": "Joint responsibilities of Procurement Committees and",
+    "hierarchy": "2 > 2.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 9,
+    "source": "guidelines_2006",
+    "number": "2.5",
+    "title": "Responsibilities and Duties of Procurement Committees",
+    "hierarchy": "2 > 2.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 10,
+    "source": "guidelines_2006",
+    "number": "2.6",
+    "title": "Responsibilities and Duties of Technical Evaluation Committees",
+    "hierarchy": "2 > 2.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 11,
+    "source": "guidelines_2006",
+    "number": "2.7",
+    "title": "Composition of Procurement Committees and Cabinet Appointed",
+    "hierarchy": "2 > 2.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 12,
+    "source": "guidelines_2006",
+    "number": "2.8",
+    "title": "Composition of Technical Evaluation Committees",
+    "hierarchy": "2 > 2.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 13,
+    "source": "guidelines_2006",
+    "number": "2.9",
+    "title": "Payments for Members of Procurement Committees and Technical",
+    "hierarchy": "2 > 2.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 14,
+    "source": "guidelines_2006",
+    "number": "2.10",
+    "title": "Absence of Members - Excluding Cabinet Appointed Procurement",
+    "hierarchy": "2 > 2.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 15,
+    "source": "guidelines_2006",
+    "number": "2.11",
+    "title": "Procedures for Meetings of Procurement Committees and Technical",
+    "hierarchy": "2 > 2.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 16,
+    "source": "guidelines_2006",
+    "number": "2.12",
+    "title": "Declarations by Members of Procurement Committees and Technical",
+    "hierarchy": "2 > 2.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 17,
+    "source": "guidelines_2006",
+    "number": "2.13",
+    "title": "Review of Performance of Project Committees and Technical Evaluation",
+    "hierarchy": "2 > 2.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 18,
+    "source": "guidelines_2006",
+    "number": "2.14",
+    "title": "Limits of Authority for Contract Awards",
+    "hierarchy": "2 > 2.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 19,
+    "source": "guidelines_2006",
+    "number": "3.1",
+    "title": "International Competitive Bidding",
+    "hierarchy": "3 > 3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 20,
+    "source": "guidelines_2006",
+    "number": "3.2",
+    "title": "National Competitive Bidding",
+    "hierarchy": "3 > 3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 21,
+    "source": "guidelines_2006",
+    "number": "3.3",
+    "title": "Limited/Restricted International Competitive Bidding and",
+    "hierarchy": "3 > 3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 22,
+    "source": "guidelines_2006",
+    "number": "3.4",
+    "title": "Shopping",
+    "hierarchy": "3 > 3.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 23,
+    "source": "guidelines_2006",
+    "number": "3.5",
+    "title": "Direct Contracting",
+    "hierarchy": "3 > 3.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 24,
+    "source": "guidelines_2006",
+    "number": "3.6",
+    "title": "Repeat Orders",
+    "hierarchy": "3 > 3.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 25,
+    "source": "guidelines_2006",
+    "number": "3.7",
+    "title": "Force Account",
+    "hierarchy": "3 > 3.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 26,
+    "source": "guidelines_2006",
+    "number": "3.8",
+    "title": "Emergency Procurement",
+    "hierarchy": "3 > 3.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 27,
+    "source": "guidelines_2006",
+    "number": "3.9",
+    "title": "Community Participation in Procurement",
+    "hierarchy": "3 > 3.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 28,
+    "source": "guidelines_2006",
+    "number": "3.10",
+    "title": "Two Stage Bidding",
+    "hierarchy": "3 > 3.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 29,
+    "source": "guidelines_2006",
+    "number": "3.11",
+    "title": "Two Envelope System",
+    "hierarchy": "3 > 3.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 30,
+    "source": "guidelines_2006",
+    "number": "3.12",
+    "title": "Pre-qualification of Bidders",
+    "hierarchy": "3 > 3.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 31,
+    "source": "guidelines_2006",
+    "number": "4.1",
+    "title": "Advance Procurement Action",
+    "hierarchy": "4 > 4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 32,
+    "source": "guidelines_2006",
+    "number": "4.2",
+    "title": "Ministry Procurement Plan",
+    "hierarchy": "4 > 4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 33,
+    "source": "guidelines_2006",
+    "number": "4.3",
+    "title": "Total Cost Estimate",
+    "hierarchy": "4 > 4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 34,
+    "source": "guidelines_2006",
+    "number": "4.4",
+    "title": "Packaging and Slicing of Contracts",
+    "hierarchy": "4 > 4.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 35,
+    "source": "guidelines_2006",
+    "number": "5.1",
+    "title": "Initiation of Drafting Bidding Documents",
+    "hierarchy": "5 > 5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 36,
+    "source": "guidelines_2006",
+    "number": "5.2",
+    "title": "Contents of Bidding Documents",
+    "hierarchy": "5 > 5.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 37,
+    "source": "guidelines_2006",
+    "number": "5.3",
+    "title": "Standard Bidding Document",
+    "hierarchy": "5 > 5.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 38,
+    "source": "guidelines_2006",
+    "number": "5.4",
+    "title": "Conditions of Contract",
+    "hierarchy": "5 > 5.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 39,
+    "source": "guidelines_2006",
+    "number": "5.5",
+    "title": "The Law of Contract",
+    "hierarchy": "5 > 5.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 40,
+    "source": "guidelines_2006",
+    "number": "5.6",
+    "title": "Specifications",
+    "hierarchy": "5 > 5.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 41,
+    "source": "guidelines_2006",
+    "number": "6.1",
+    "title": "Issuance of Bidding Documents",
+    "hierarchy": "6 > 6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 42,
+    "source": "guidelines_2006",
+    "number": "6.2",
+    "title": "Bidding Period",
+    "hierarchy": "6 > 6.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 43,
+    "source": "guidelines_2006",
+    "number": "6.3",
+    "title": "Submission/Receipt of Bids",
+    "hierarchy": "6 > 6.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 44,
+    "source": "guidelines_2006",
+    "number": "7.1",
+    "title": "Meetings of Technical Evaluation Committees",
+    "hierarchy": "7 > 7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 45,
+    "source": "guidelines_2006",
+    "number": "7.2",
+    "title": "Confidentiality",
+    "hierarchy": "7 > 7.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 46,
+    "source": "guidelines_2006",
+    "number": "7.3",
+    "title": "Services of Consultant/s for Evaluation of Bids",
+    "hierarchy": "7 > 7.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 47,
+    "source": "guidelines_2006",
+    "number": "7.4",
+    "title": "Time Frame for Bid Evaluation",
+    "hierarchy": "7 > 7.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 48,
+    "source": "guidelines_2006",
+    "number": "7.5",
+    "title": "Extension of Bid Validity",
+    "hierarchy": "7 > 7.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 49,
+    "source": "guidelines_2006",
+    "number": "7.6",
+    "title": "Original Bid to be Evaluated",
+    "hierarchy": "7 > 7.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 50,
+    "source": "guidelines_2006",
+    "number": "7.7",
+    "title": "Purpose and Stages of Bid Evaluation",
+    "hierarchy": "7 > 7.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 51,
+    "source": "guidelines_2006",
+    "number": "7.8",
+    "title": "Bid Examination",
+    "hierarchy": "7 > 7.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 52,
+    "source": "guidelines_2006",
+    "number": "7.9",
+    "title": "Detailed Bid Evaluation",
+    "hierarchy": "7 > 7.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 53,
+    "source": "guidelines_2006",
+    "number": "7.10",
+    "title": "Post Qualification",
+    "hierarchy": "7 > 7.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 54,
+    "source": "guidelines_2006",
+    "number": "7.11",
+    "title": "Bid Evaluation Report",
+    "hierarchy": "7 > 7.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 55,
+    "source": "guidelines_2006",
+    "number": "7.12",
+    "title": "Rejection of all Bids Received",
+    "hierarchy": "7 > 7.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 56,
+    "source": "guidelines_2006",
+    "number": "8.1",
+    "title": "Recommendation/Determination of Contract Award",
+    "hierarchy": "8 > 8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 57,
+    "source": "guidelines_2006",
+    "number": "8.2",
+    "title": "Communication to all Bidders of the Intention to Award Contract",
+    "hierarchy": "8 > 8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 58,
+    "source": "guidelines_2006",
+    "number": "8.3",
+    "title": "Appeals against Contract Awards recommended by the CAPC",
+    "hierarchy": "8 > 8.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 59,
+    "source": "guidelines_2006",
+    "number": "8.4",
+    "title": "Appeal Board",
+    "hierarchy": "8 > 8.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 60,
+    "source": "guidelines_2006",
+    "number": "8.5",
+    "title": "Contract Award in relation to MPC",
+    "hierarchy": "8 > 8.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 61,
+    "source": "guidelines_2006",
+    "number": "8.6",
+    "title": "Contract Award in Relation to Cabinet Appointed Procurement",
+    "hierarchy": "8 > 8.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 62,
+    "source": "guidelines_2006",
+    "number": "8.7",
+    "title": "Award of Contract",
+    "hierarchy": "8 > 8.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 63,
+    "source": "guidelines_2006",
+    "number": "8.8",
+    "title": "Debriefing",
+    "hierarchy": "8 > 8.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 64,
+    "source": "guidelines_2006",
+    "number": "8.9",
+    "title": "Execution of Contract",
+    "hierarchy": "8 > 8.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 65,
+    "source": "guidelines_2006",
+    "number": "8.10",
+    "title": "Publication of Contract Award",
+    "hierarchy": "8 > 8.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 66,
+    "source": "guidelines_2006",
+    "number": "8.11",
+    "title": "Default",
+    "hierarchy": "8 > 8.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 67,
+    "source": "guidelines_2006",
+    "number": "8.12",
+    "title": "Contract Administration",
+    "hierarchy": "8 > 8.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 68,
+    "source": "guidelines_2006",
+    "number": "8.13",
+    "title": "Variation Orders - Works",
+    "hierarchy": "8 > 8.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 69,
+    "source": "guidelines_2006",
+    "number": "8.14",
+    "title": "Extension of Time",
+    "hierarchy": "8 > 8.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 70,
+    "source": "guidelines_2006",
+    "number": "9.1",
+    "title": "Procurement of Commodities",
+    "hierarchy": "9 > 9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 71,
+    "source": "guidelines_2006",
+    "number": "9.2",
+    "title": "Procurement of Spare parts",
+    "hierarchy": "9 > 9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 72,
+    "source": "guidelines_2006",
+    "number": "9.3",
+    "title": "Repairs to Motor Vehicles and Equipment",
+    "hierarchy": "9 > 9.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 73,
+    "source": "guidelines_2006",
+    "number": "9.4",
+    "title": "Periodicals and Publications",
+    "hierarchy": "9 > 9.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 74,
+    "source": "guidelines_2006",
+    "number": "9.5",
+    "title": "Purchasing of Fuel",
+    "hierarchy": "9 > 9.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 75,
+    "source": "guidelines_2006",
+    "number": "9.6",
+    "title": "Procurement of Pharmaceuticals and Medical Equipment",
+    "hierarchy": "9 > 9.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 76,
+    "source": "guidelines_2006",
+    "number": "9.7",
+    "title": "Information Systems",
+    "hierarchy": "9 > 9.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 77,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 78,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 1
+  },
+  {
+    "id": 79,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 2
+  },
+  {
+    "id": 80,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 3
+  },
+  {
+    "id": 81,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 4
+  },
+  {
+    "id": 82,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 5
+  },
+  {
+    "id": 83,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 6
+  },
+  {
+    "id": 84,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 7
+  },
+  {
+    "id": 85,
+    "source": "guidelines_2006",
+    "number": "1.1",
+    "title": "Purpose",
+    "hierarchy": "I > 1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 86,
+    "source": "guidelines_2006",
+    "number": "1.1.1",
+    "title": "The purpose of these Guidelines is to set forth the procedures that",
+    "hierarchy": "I > 1.1 > 1.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 87,
+    "source": "guidelines_2006",
+    "number": "1.2",
+    "title": "Objectives",
+    "hierarchy": "I > 1.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 88,
+    "source": "guidelines_2006",
+    "number": "1.2.1",
+    "title": "The Procurement process should ensure:-",
+    "hierarchy": "I > 1.2 > 1.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 89,
+    "source": "guidelines_2006",
+    "number": "1.2.1",
+    "title": "The Procurement process should ensure:-",
+    "hierarchy": "I > 1.2 > 1.2.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 90,
+    "source": "guidelines_2006",
+    "number": "1.3",
+    "title": "Scope of Application",
+    "hierarchy": "I > 1.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 91,
+    "source": "guidelines_2006",
+    "number": "1.3.1",
+    "title": "These Guidelines repeal, replace or otherwise supersede all previous",
+    "hierarchy": "I > 1.3 > 1.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 92,
+    "source": "guidelines_2006",
+    "number": "1.3.2",
+    "title": "Guidelines are applicable to all Procurements, irrespective of the",
+    "hierarchy": "I > 1.3 > 1.3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 93,
+    "source": "guidelines_2006",
+    "number": "1.3.3",
+    "title": "In the case of a Foreign Funded Project, if the Foreign Funding",
+    "hierarchy": "I > 1.3 > 1.3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 94,
+    "source": "guidelines_2006",
+    "number": "1.4",
+    "title": "Ethics in Procurement",
+    "hierarchy": "I > 1.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 95,
+    "source": "guidelines_2006",
+    "number": "1.4.1",
+    "title": "Parties associated with Procurement Actions, namely, suppliers/",
+    "hierarchy": "I > 1.4 > 1.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 96,
+    "source": "guidelines_2006",
+    "number": "1.4.2",
+    "title": "Corruption",
+    "hierarchy": "I > 1.4 > 1.4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 97,
+    "source": "guidelines_2006",
+    "number": "1.4.3",
+    "title": "Officials shall declare that they shall remain without a conflict of interest",
+    "hierarchy": "I > 1.4 > 1.4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 98,
+    "source": "guidelines_2006",
+    "number": "1.4.4",
+    "title": "Officials shall refrain from receiving any personal gain from any",
+    "hierarchy": "I > 1.4 > 1.4.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 99,
+    "source": "guidelines_2006",
+    "number": "1.4.5",
+    "title": "For the purpose of Guideline 1.4 (Ethics in Procurement), officials",
+    "hierarchy": "I > 1.4 > 1.4.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 100,
+    "source": "guidelines_2006",
+    "number": "1.5",
+    "title": "Laws applicable to Procurement Actions",
+    "hierarchy": "I > 1.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 101,
+    "source": "guidelines_2006",
+    "number": "2.1",
+    "title": "National Procurement Agency (NPA)",
+    "hierarchy": "2 > 2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 102,
+    "source": "guidelines_2006",
+    "number": "2.1.1",
+    "title": "The NPA is the principal authority for formulating and effecting",
+    "hierarchy": "2 > 2.1 > 2.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 103,
+    "source": "guidelines_2006",
+    "number": "2.2",
+    "title": "Secretaries to the Line Ministries",
+    "hierarchy": "2 > 2.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 104,
+    "source": "guidelines_2006",
+    "number": "2.2.1",
+    "title": "The responsibility of Procurement Actions shall be vested with the",
+    "hierarchy": "2 > 2.2 > 2.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 105,
+    "source": "guidelines_2006",
+    "number": "2.3",
+    "title": "Responsibilities of the Procuring Entity",
+    "hierarchy": "2 > 2.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 106,
+    "source": "guidelines_2006",
+    "number": "2.3.1",
+    "title": "Prior to a request being made for the appointment of a PC, the PE",
+    "hierarchy": "2 > 2.3 > 2.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 107,
+    "source": "guidelines_2006",
+    "number": "2.3.1",
+    "title": "Prior to a request being made for the appointment of a PC, the PE",
+    "hierarchy": "2 > 2.3 > 2.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 108,
+    "source": "guidelines_2006",
+    "number": "2.3.2",
+    "title": "The officer-in-charge of a Procurement Action, such as Heads of",
+    "hierarchy": "2 > 2.3 > 2.3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 109,
+    "source": "guidelines_2006",
+    "number": "2.3.2",
+    "title": "The officer-in-charge of a Procurement Action, such as Heads of",
+    "hierarchy": "2 > 2.3 > 2.3.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 110,
+    "source": "guidelines_2006",
+    "number": "2.3.2",
+    "title": "The officer-in-charge of a Procurement Action, such as Heads of",
+    "hierarchy": "2 > 2.3 > 2.3.2",
+    "chunk_index": 2
+  },
+  {
+    "id": 111,
+    "source": "guidelines_2006",
+    "number": "2.4",
+    "title": "Joint responsibilities of Procurement Committees and",
+    "hierarchy": "2 > 2.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 112,
+    "source": "guidelines_2006",
+    "number": "2.4.1",
+    "title": "PC and the TEC shall be responsible for the entire Procurement",
+    "hierarchy": "2 > 2.4 > 2.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 113,
+    "source": "guidelines_2006",
+    "number": "2.4.1",
+    "title": "PC and the TEC shall be responsible for the entire Procurement",
+    "hierarchy": "2 > 2.4 > 2.4.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 114,
+    "source": "guidelines_2006",
+    "number": "2.4.2",
+    "title": "Any Procurement that will lead to other downstream Procurement/s",
+    "hierarchy": "2 > 2.4 > 2.4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 115,
+    "source": "guidelines_2006",
+    "number": "2.4.3",
+    "title": "All members of PCs and TECs serving in their respective committees",
+    "hierarchy": "2 > 2.4 > 2.4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 116,
+    "source": "guidelines_2006",
+    "number": "2.5",
+    "title": "Responsibilities and Duties of Procurement Committees",
+    "hierarchy": "2 > 2.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 117,
+    "source": "guidelines_2006",
+    "number": "2.5.1",
+    "title": "The members of the PCs are jointly and severally responsible for the",
+    "hierarchy": "2 > 2.5 > 2.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 118,
+    "source": "guidelines_2006",
+    "number": "2.5.1",
+    "title": "The members of the PCs are jointly and severally responsible for the",
+    "hierarchy": "2 > 2.5 > 2.5.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 119,
+    "source": "guidelines_2006",
+    "number": "2.6",
+    "title": "Responsibilities and Duties of Technical Evaluation",
+    "hierarchy": "2 > 2.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 120,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 121,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 122,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 123,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 124,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 4
+  },
+  {
+    "id": 125,
+    "source": "guidelines_2006",
+    "number": "2.6.1",
+    "title": "(a) The members of the TECs are jointly and severally responsible",
+    "hierarchy": "2 > 2.6 > 2.6.1",
+    "chunk_index": 5
+  },
+  {
+    "id": 126,
+    "source": "guidelines_2006",
+    "number": "2.7",
+    "title": "Composition of Procurement Committees (PC) and Cabinet",
+    "hierarchy": "2 > 2.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 127,
+    "source": "guidelines_2006",
+    "number": "2.7.1",
+    "title": "Under delegated authority by the Cabinet of Ministers, the NPA",
+    "hierarchy": "2 > 2.7 > 2.7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 128,
+    "source": "guidelines_2006",
+    "number": "2.7.2",
+    "title": "(a) In extraordinary situations, a ministry may submit a Cabinet",
+    "hierarchy": "2 > 2.7 > 2.7.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 129,
+    "source": "guidelines_2006",
+    "number": "2.7.3",
+    "title": "SCAPC may be justified where;",
+    "hierarchy": "2 > 2.7 > 2.7.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 130,
+    "source": "guidelines_2006",
+    "number": "2.7.3",
+    "title": "SCAPC may be justified where;",
+    "hierarchy": "2 > 2.7 > 2.7.3",
+    "chunk_index": 1
+  },
+  {
+    "id": 131,
+    "source": "guidelines_2006",
+    "number": "2.7.4",
+    "title": "The Secretary to the Line Ministry shall appoint the MPC.",
+    "hierarchy": "2 > 2.7 > 2.7.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 132,
+    "source": "guidelines_2006",
+    "number": "2.7.5",
+    "title": "The Secretary to the Line Ministry shall appoint the DPC.",
+    "hierarchy": "2 > 2.7 > 2.7.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 133,
+    "source": "guidelines_2006",
+    "number": "2.7.6",
+    "title": "The Secretary to the Line Ministry shall appoint the PPC.",
+    "hierarchy": "2 > 2.7 > 2.7.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 134,
+    "source": "guidelines_2006",
+    "number": "2.7.7",
+    "title": "Heads of Department having a large number of regional/district offices",
+    "hierarchy": "2 > 2.7 > 2.7.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 135,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 136,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 1
+  },
+  {
+    "id": 137,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 2
+  },
+  {
+    "id": 138,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 3
+  },
+  {
+    "id": 139,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 4
+  },
+  {
+    "id": 140,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 5
+  },
+  {
+    "id": 141,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 6
+  },
+  {
+    "id": 142,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 7
+  },
+  {
+    "id": 143,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 8
+  },
+  {
+    "id": 144,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 9
+  },
+  {
+    "id": 145,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 10
+  },
+  {
+    "id": 146,
+    "source": "guidelines_2006",
+    "number": "2.7.8",
+    "title": "(a) Ex-officio Member:",
+    "hierarchy": "2 > 2.7 > 2.7.8",
+    "chunk_index": 11
+  },
+  {
+    "id": 147,
+    "source": "guidelines_2006",
+    "number": "2.8",
+    "title": "Composition of Technical Evaluation Committees (TEC)",
+    "hierarchy": "2 > 2.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 148,
+    "source": "guidelines_2006",
+    "number": "2.8.1",
+    "title": "(a) There shall be TECs for all Procurements falling under the purview",
+    "hierarchy": "2 > 2.8 > 2.8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 149,
+    "source": "guidelines_2006",
+    "number": "2.8.1",
+    "title": "(a) There shall be TECs for all Procurements falling under the purview",
+    "hierarchy": "2 > 2.8 > 2.8.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 150,
+    "source": "guidelines_2006",
+    "number": "2.8.2",
+    "title": "The NPA shall appoint the TEC for the CAPC giving due",
+    "hierarchy": "2 > 2.8 > 2.8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 151,
+    "source": "guidelines_2006",
+    "number": "2.8.3",
+    "title": "Secretary to the Line Ministry shall appoint the TEC giving due",
+    "hierarchy": "2 > 2.8 > 2.8.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 152,
+    "source": "guidelines_2006",
+    "number": "2.8.4",
+    "title": "Head of Department/Project Director shall appoint the TEC.",
+    "hierarchy": "2 > 2.8 > 2.8.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 153,
+    "source": "guidelines_2006",
+    "number": "2.8.5",
+    "title": "(a)The Head of Department shall decide on the requirement of a",
+    "hierarchy": "2 > 2.8 > 2.8.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 154,
+    "source": "guidelines_2006",
+    "number": "2.9",
+    "title": "Payments for Members of Procurement Committees (PC) and",
+    "hierarchy": "2 > 2.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 155,
+    "source": "guidelines_2006",
+    "number": "2.9.1",
+    "title": "Members of the PCs, TECs and alternate members shall be paid for",
+    "hierarchy": "2 > 2.9 > 2.9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 156,
+    "source": "guidelines_2006",
+    "number": "2.9.2",
+    "title": "The payment shall be reduced by forty percent (40%) in the first",
+    "hierarchy": "2 > 2.9 > 2.9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 157,
+    "source": "guidelines_2006",
+    "number": "2.10",
+    "title": "Absence of Members - Excluding Cabinet Appointed",
+    "hierarchy": "2 > 2.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 158,
+    "source": "guidelines_2006",
+    "number": "2.10.1",
+    "title": "(a) The provisions of this Guideline 2.10 do not apply to members",
+    "hierarchy": "2 > 2.10 > 2.10.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 159,
+    "source": "guidelines_2006",
+    "number": "2.10.1",
+    "title": "(a) The provisions of this Guideline 2.10 do not apply to members",
+    "hierarchy": "2 > 2.10 > 2.10.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 160,
+    "source": "guidelines_2006",
+    "number": "2.10.1",
+    "title": "(a) The provisions of this Guideline 2.10 do not apply to members",
+    "hierarchy": "2 > 2.10 > 2.10.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 161,
+    "source": "guidelines_2006",
+    "number": "2.10.2",
+    "title": "In the event the Chairperson of a PC or TEC is unable to attend a",
+    "hierarchy": "2 > 2.10 > 2.10.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 162,
+    "source": "guidelines_2006",
+    "number": "2.10.3",
+    "title": "If a member of a PC or a TEC is absent from three consecutively",
+    "hierarchy": "2 > 2.10 > 2.10.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 163,
+    "source": "guidelines_2006",
+    "number": "2.11",
+    "title": "Procedures for Meetings of Procurement Committees (PC)",
+    "hierarchy": "2 > 2.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 164,
+    "source": "guidelines_2006",
+    "number": "2.11.1",
+    "title": "(a) The secretary of the committee in consultation with the",
+    "hierarchy": "2 > 2.11 > 2.11.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 165,
+    "source": "guidelines_2006",
+    "number": "2.11.2",
+    "title": "The secretary of the committee shall maintain a register of attendance",
+    "hierarchy": "2 > 2.11 > 2.11.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 166,
+    "source": "guidelines_2006",
+    "number": "2.11.3",
+    "title": "(a) The proceedings of the meetings of the committee should be",
+    "hierarchy": "2 > 2.11 > 2.11.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 167,
+    "source": "guidelines_2006",
+    "number": "2.12",
+    "title": "Declarations by Members of Procurement Committees (PC)",
+    "hierarchy": "2 > 2.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 168,
+    "source": "guidelines_2006",
+    "number": "2.12",
+    "title": "Declarations by Members of Procurement Committees (PC)",
+    "hierarchy": "2 > 2.12",
+    "chunk_index": 1
+  },
+  {
+    "id": 169,
+    "source": "guidelines_2006",
+    "number": "2.13",
+    "title": "Review of Performance of Procurement Committees (PC) and",
+    "hierarchy": "2 > 2.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 170,
+    "source": "guidelines_2006",
+    "number": "2.13.1",
+    "title": "The NPA shall:",
+    "hierarchy": "2 > 2.13 > 2.13.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 171,
+    "source": "guidelines_2006",
+    "number": "2.13.2",
+    "title": "Pursuant to 2.13.1 (iii), if it is established that the members were",
+    "hierarchy": "2 > 2.13 > 2.13.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 172,
+    "source": "guidelines_2006",
+    "number": "2.14",
+    "title": "Limits of Authority for Contract Awards",
+    "hierarchy": "2 > 2.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 173,
+    "source": "guidelines_2006",
+    "number": "2.14.1",
+    "title": "Limits of authority to make recommendation/determination of contract",
+    "hierarchy": "2 > 2.14 > 2.14.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 174,
+    "source": "guidelines_2006",
+    "number": "3.1",
+    "title": "International Competitive Bidding (ICB)",
+    "hierarchy": "3 > 3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 175,
+    "source": "guidelines_2006",
+    "number": "3.1.1",
+    "title": "(a) when the capacity of the domestic contractors, suppliers and",
+    "hierarchy": "3 > 3.1 > 3.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 176,
+    "source": "guidelines_2006",
+    "number": "3.1.1",
+    "title": "(a) when the capacity of the domestic contractors, suppliers and",
+    "hierarchy": "3 > 3.1 > 3.1.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 177,
+    "source": "guidelines_2006",
+    "number": "3.1.2",
+    "title": "Domestic preference criteria stipulated under Guideline 7.9.4 shall",
+    "hierarchy": "3 > 3.1 > 3.1.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 178,
+    "source": "guidelines_2006",
+    "number": "3.1.3",
+    "title": "All other conditions including currencies, taxes and other statutory",
+    "hierarchy": "3 > 3.1 > 3.1.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 179,
+    "source": "guidelines_2006",
+    "number": "3.1.4",
+    "title": "The PE is required to give international publicity to the procurement",
+    "hierarchy": "3 > 3.1 > 3.1.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 180,
+    "source": "guidelines_2006",
+    "number": "3.1.4",
+    "title": "The PE is required to give international publicity to the procurement",
+    "hierarchy": "3 > 3.1 > 3.1.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 181,
+    "source": "guidelines_2006",
+    "number": "3.2",
+    "title": "National Competitive Bidding (NCB)",
+    "hierarchy": "3 > 3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 182,
+    "source": "guidelines_2006",
+    "number": "3.2.1",
+    "title": "NCB is the competitive bidding procedure that shall be generally",
+    "hierarchy": "3 > 3.2 > 3.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 183,
+    "source": "guidelines_2006",
+    "number": "3.2.2",
+    "title": "(a) should be advertised at least in one widely circulated national",
+    "hierarchy": "3 > 3.2 > 3.2.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 184,
+    "source": "guidelines_2006",
+    "number": "3.2.2",
+    "title": "(a) should be advertised at least in one widely circulated national",
+    "hierarchy": "3 > 3.2 > 3.2.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 185,
+    "source": "guidelines_2006",
+    "number": "3.2.2",
+    "title": "(a) should be advertised at least in one widely circulated national",
+    "hierarchy": "3 > 3.2 > 3.2.2",
+    "chunk_index": 2
+  },
+  {
+    "id": 186,
+    "source": "guidelines_2006",
+    "number": "3.2.3",
+    "title": "NCB in Foreign Funded Project shall be used:",
+    "hierarchy": "3 > 3.2 > 3.2.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 187,
+    "source": "guidelines_2006",
+    "number": "3.2.3",
+    "title": "NCB in Foreign Funded Project shall be used:",
+    "hierarchy": "3 > 3.2 > 3.2.3",
+    "chunk_index": 1
+  },
+  {
+    "id": 188,
+    "source": "guidelines_2006",
+    "number": "3.3",
+    "title": "Limited / Restricted International Competitive Bidding (LIB)",
+    "hierarchy": "3 > 3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 189,
+    "source": "guidelines_2006",
+    "number": "3.4",
+    "title": "Shopping",
+    "hierarchy": "3 > 3.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 190,
+    "source": "guidelines_2006",
+    "number": "3.4.1",
+    "title": "(a) Shopping is an appropriate procurement method for procuring:",
+    "hierarchy": "3 > 3.4 > 3.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 191,
+    "source": "guidelines_2006",
+    "number": "3.4.1",
+    "title": "(a) Shopping is an appropriate procurement method for procuring:",
+    "hierarchy": "3 > 3.4 > 3.4.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 192,
+    "source": "guidelines_2006",
+    "number": "3.4.2",
+    "title": "(a) Requests for quotations shall be addressed to individuals/firms",
+    "hierarchy": "3 > 3.4 > 3.4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 193,
+    "source": "guidelines_2006",
+    "number": "3.4.2",
+    "title": "(a) Requests for quotations shall be addressed to individuals/firms",
+    "hierarchy": "3 > 3.4 > 3.4.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 194,
+    "source": "guidelines_2006",
+    "number": "3.4.3",
+    "title": "(a) This procedure should be applied for Procurement of items of",
+    "hierarchy": "3 > 3.4 > 3.4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 195,
+    "source": "guidelines_2006",
+    "number": "3.4.3",
+    "title": "(a) This procedure should be applied for Procurement of items of",
+    "hierarchy": "3 > 3.4 > 3.4.3",
+    "chunk_index": 1
+  },
+  {
+    "id": 196,
+    "source": "guidelines_2006",
+    "number": "3.4.4",
+    "title": "When the appropriate authority is satisfied, in the case of supplies of",
+    "hierarchy": "3 > 3.4 > 3.4.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 197,
+    "source": "guidelines_2006",
+    "number": "3.5",
+    "title": "Direct Contracting",
+    "hierarchy": "3 > 3.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 198,
+    "source": "guidelines_2006",
+    "number": "3.5.1",
+    "title": "(a) Direct contracting is a means of Procurement of Goods or",
+    "hierarchy": "3 > 3.5 > 3.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 199,
+    "source": "guidelines_2006",
+    "number": "3.5.1",
+    "title": "(a) Direct contracting is a means of Procurement of Goods or",
+    "hierarchy": "3 > 3.5 > 3.5.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 200,
+    "source": "guidelines_2006",
+    "number": "3.5.1",
+    "title": "(a) Direct contracting is a means of Procurement of Goods or",
+    "hierarchy": "3 > 3.5 > 3.5.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 201,
+    "source": "guidelines_2006",
+    "number": "3.5.1",
+    "title": "(a) Direct contracting is a means of Procurement of Goods or",
+    "hierarchy": "3 > 3.5 > 3.5.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 202,
+    "source": "guidelines_2006",
+    "number": "3.6",
+    "title": "Repeat Orders",
+    "hierarchy": "3 > 3.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 203,
+    "source": "guidelines_2006",
+    "number": "3.6.1",
+    "title": "Orders placed with the original supplier over a short period of time",
+    "hierarchy": "3 > 3.6 > 3.6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 204,
+    "source": "guidelines_2006",
+    "number": "3.6.1",
+    "title": "Orders placed with the original supplier over a short period of time",
+    "hierarchy": "3 > 3.6 > 3.6.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 205,
+    "source": "guidelines_2006",
+    "number": "3.6.2",
+    "title": "(a) Prior to the placement of repeat orders, the PC shall use its best",
+    "hierarchy": "3 > 3.6 > 3.6.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 206,
+    "source": "guidelines_2006",
+    "number": "3.7",
+    "title": "Force Account",
+    "hierarchy": "3 > 3.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 207,
+    "source": "guidelines_2006",
+    "number": "3.7.1",
+    "title": "Force Account means the execution of Works by using the PEs",
+    "hierarchy": "3 > 3.7 > 3.7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 208,
+    "source": "guidelines_2006",
+    "number": "3.7.2",
+    "title": "If the PE determines that it has the required workforce to undertake",
+    "hierarchy": "3 > 3.7 > 3.7.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 209,
+    "source": "guidelines_2006",
+    "number": "3.8",
+    "title": "Emergency Procurement",
+    "hierarchy": "3 > 3.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 210,
+    "source": "guidelines_2006",
+    "number": "3.8.1",
+    "title": "(a) A PE may utilize this method of Procurement -",
+    "hierarchy": "3 > 3.8 > 3.8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 211,
+    "source": "guidelines_2006",
+    "number": "3.8.1",
+    "title": "(a) A PE may utilize this method of Procurement -",
+    "hierarchy": "3 > 3.8 > 3.8.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 212,
+    "source": "guidelines_2006",
+    "number": "3.8.2",
+    "title": "For Works not exceeding SLR 25 Million (Sri Lanka Rupees Twenty",
+    "hierarchy": "3 > 3.8 > 3.8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 213,
+    "source": "guidelines_2006",
+    "number": "3.8.2",
+    "title": "For Works not exceeding SLR 25 Million (Sri Lanka Rupees Twenty",
+    "hierarchy": "3 > 3.8 > 3.8.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 214,
+    "source": "guidelines_2006",
+    "number": "3.8.2",
+    "title": "For Works not exceeding SLR 25 Million (Sri Lanka Rupees Twenty",
+    "hierarchy": "3 > 3.8 > 3.8.2",
+    "chunk_index": 2
+  },
+  {
+    "id": 215,
+    "source": "guidelines_2006",
+    "number": "3.8.2",
+    "title": "For Works not exceeding SLR 25 Million (Sri Lanka Rupees Twenty",
+    "hierarchy": "3 > 3.8 > 3.8.2",
+    "chunk_index": 3
+  },
+  {
+    "id": 216,
+    "source": "guidelines_2006",
+    "number": "3.9",
+    "title": "Community participation in Procurement",
+    "hierarchy": "3 > 3.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 217,
+    "source": "guidelines_2006",
+    "number": "3.9.1",
+    "title": "In the interest of project sustainability, or to achieve certain specific",
+    "hierarchy": "3 > 3.9 > 3.9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 218,
+    "source": "guidelines_2006",
+    "number": "3.9.2",
+    "title": "Subject to the above Guidelines and on the recommendation of a",
+    "hierarchy": "3 > 3.9 > 3.9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 219,
+    "source": "guidelines_2006",
+    "number": "3.9.3",
+    "title": "Direct contracting to community organizations may be awarded under",
+    "hierarchy": "3 > 3.9 > 3.9.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 220,
+    "source": "guidelines_2006",
+    "number": "3.9.4",
+    "title": "Subject to the procedures laid down in the Procurement Manual,",
+    "hierarchy": "3 > 3.9 > 3.9.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 221,
+    "source": "guidelines_2006",
+    "number": "3.10",
+    "title": "Two Stage Bidding",
+    "hierarchy": "3 > 3.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 222,
+    "source": "guidelines_2006",
+    "number": "3.10.1",
+    "title": "(a) For Turnkey contracts or contracts for large complex plants/",
+    "hierarchy": "3 > 3.10 > 3.10.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 223,
+    "source": "guidelines_2006",
+    "number": "3.10.2",
+    "title": "(a) In the first stage un-priced technical proposals on the basis of a",
+    "hierarchy": "3 > 3.10 > 3.10.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 224,
+    "source": "guidelines_2006",
+    "number": "3.11",
+    "title": "Two Envelope System",
+    "hierarchy": "3 > 3.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 225,
+    "source": "guidelines_2006",
+    "number": "3.11.1",
+    "title": "(a) Two envelope system may be used when the PC determines in",
+    "hierarchy": "3 > 3.11 > 3.11.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 226,
+    "source": "guidelines_2006",
+    "number": "3.11.1",
+    "title": "(a) Two envelope system may be used when the PC determines in",
+    "hierarchy": "3 > 3.11 > 3.11.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 227,
+    "source": "guidelines_2006",
+    "number": "3.12",
+    "title": "Pre-qualification of Bidders",
+    "hierarchy": "3 > 3.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 228,
+    "source": "guidelines_2006",
+    "number": "3.12.1",
+    "title": "(a) Pre-qualification is generally required in circumstances where",
+    "hierarchy": "3 > 3.12 > 3.12.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 229,
+    "source": "guidelines_2006",
+    "number": "3.12.1",
+    "title": "(a) Pre-qualification is generally required in circumstances where",
+    "hierarchy": "3 > 3.12 > 3.12.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 230,
+    "source": "guidelines_2006",
+    "number": "3.12.1",
+    "title": "(a) Pre-qualification is generally required in circumstances where",
+    "hierarchy": "3 > 3.12 > 3.12.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 231,
+    "source": "guidelines_2006",
+    "number": "3.12.1",
+    "title": "(a) Pre-qualification is generally required in circumstances where",
+    "hierarchy": "3 > 3.12 > 3.12.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 232,
+    "source": "guidelines_2006",
+    "number": "3.12.2",
+    "title": "Pre-qualification Criteria",
+    "hierarchy": "3 > 3.12 > 3.12.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 233,
+    "source": "guidelines_2006",
+    "number": "3.12.2",
+    "title": "Pre-qualification Criteria",
+    "hierarchy": "3 > 3.12 > 3.12.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 234,
+    "source": "guidelines_2006",
+    "number": "4.1",
+    "title": "Advance Procurement Action",
+    "hierarchy": "4 > 4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 235,
+    "source": "guidelines_2006",
+    "number": "4.1.1",
+    "title": "(a) Efficient planning of the entire Procurement process is vital to",
+    "hierarchy": "4 > 4.1 > 4.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 236,
+    "source": "guidelines_2006",
+    "number": "4.1.1",
+    "title": "(a) Efficient planning of the entire Procurement process is vital to",
+    "hierarchy": "4 > 4.1 > 4.1.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 237,
+    "source": "guidelines_2006",
+    "number": "4.2",
+    "title": "Master Procurement Plan (MPP)",
+    "hierarchy": "4 > 4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 238,
+    "source": "guidelines_2006",
+    "number": "4.2.1",
+    "title": "(a) The PE shall prepare the MPP.",
+    "hierarchy": "4 > 4.2 > 4.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 239,
+    "source": "guidelines_2006",
+    "number": "4.2.1",
+    "title": "(a) The PE shall prepare the MPP.",
+    "hierarchy": "4 > 4.2 > 4.2.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 240,
+    "source": "guidelines_2006",
+    "number": "4.2.2",
+    "title": "(a) PTS is a schedule describing in chronological order, steps of",
+    "hierarchy": "4 > 4.2 > 4.2.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 241,
+    "source": "guidelines_2006",
+    "number": "4.2.3",
+    "title": "Stage 1 -",
+    "hierarchy": "4 > 4.2 > 4.2.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 242,
+    "source": "guidelines_2006",
+    "number": "4.2.3",
+    "title": "Stage 1 -",
+    "hierarchy": "4 > 4.2 > 4.2.3",
+    "chunk_index": 1
+  },
+  {
+    "id": 243,
+    "source": "guidelines_2006",
+    "number": "4.2.3",
+    "title": "Stage 1 -",
+    "hierarchy": "4 > 4.2 > 4.2.3",
+    "chunk_index": 2
+  },
+  {
+    "id": 244,
+    "source": "guidelines_2006",
+    "number": "4.2.3",
+    "title": "Stage 1 -",
+    "hierarchy": "4 > 4.2 > 4.2.3",
+    "chunk_index": 3
+  },
+  {
+    "id": 245,
+    "source": "guidelines_2006",
+    "number": "4.2.3",
+    "title": "Stage 1 -",
+    "hierarchy": "4 > 4.2 > 4.2.3",
+    "chunk_index": 4
+  },
+  {
+    "id": 246,
+    "source": "guidelines_2006",
+    "number": "4.3",
+    "title": "Total Cost Estimate (TCE)",
+    "hierarchy": "4 > 4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 247,
+    "source": "guidelines_2006",
+    "number": "4.3.1",
+    "title": "(a) TCE including all associated costs shall be prepared by the PE.",
+    "hierarchy": "4 > 4.3 > 4.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 248,
+    "source": "guidelines_2006",
+    "number": "4.3.1",
+    "title": "(a) TCE including all associated costs shall be prepared by the PE.",
+    "hierarchy": "4 > 4.3 > 4.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 249,
+    "source": "guidelines_2006",
+    "number": "4.3.2",
+    "title": "Sanctioning of Total Cost Estimate (TCE)",
+    "hierarchy": "4 > 4.3 > 4.3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 250,
+    "source": "guidelines_2006",
+    "number": "4.3.3",
+    "title": "If considerable time is taken to invite bids after preparation of the",
+    "hierarchy": "4 > 4.3 > 4.3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 251,
+    "source": "guidelines_2006",
+    "number": "4.4",
+    "title": "Packaging and Slicing of Contracts",
+    "hierarchy": "4 > 4.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 252,
+    "source": "guidelines_2006",
+    "number": "4.4.1",
+    "title": "The size of the contract is an important consideration to note.",
+    "hierarchy": "4 > 4.4 > 4.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 253,
+    "source": "guidelines_2006",
+    "number": "4.4.2",
+    "title": "Bids may be invited under alternative contract options:",
+    "hierarchy": "4 > 4.4 > 4.4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 254,
+    "source": "guidelines_2006",
+    "number": "4.4.2",
+    "title": "Bids may be invited under alternative contract options:",
+    "hierarchy": "4 > 4.4 > 4.4.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 255,
+    "source": "guidelines_2006",
+    "number": "5.1",
+    "title": "Initiation of Drafting Bidding Documents",
+    "hierarchy": "5 > 5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 256,
+    "source": "guidelines_2006",
+    "number": "5.1.1",
+    "title": "(a) The PE should initiate the drafting of bidding documents including",
+    "hierarchy": "5 > 5.1 > 5.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 257,
+    "source": "guidelines_2006",
+    "number": "5.2",
+    "title": "Contents of Bidding Documents",
+    "hierarchy": "5 > 5.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 258,
+    "source": "guidelines_2006",
+    "number": "5.2.1",
+    "title": "(a) The bidding documents shall contain all relevant information",
+    "hierarchy": "5 > 5.2 > 5.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 259,
+    "source": "guidelines_2006",
+    "number": "5.3",
+    "title": "Standard Bidding Document (SBD)",
+    "hierarchy": "5 > 5.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 260,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 261,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 262,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 263,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 264,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 4
+  },
+  {
+    "id": 265,
+    "source": "guidelines_2006",
+    "number": "5.3.1",
+    "title": "(a) PEs shall use the appropriate specimen SBDs approved by NPA,",
+    "hierarchy": "5 > 5.3 > 5.3.1",
+    "chunk_index": 5
+  },
+  {
+    "id": 266,
+    "source": "guidelines_2006",
+    "number": "5.3.2",
+    "title": "The Invitation to bid shall contain appropriate and relevant basic",
+    "hierarchy": "5 > 5.3 > 5.3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 267,
+    "source": "guidelines_2006",
+    "number": "5.3.3",
+    "title": "Instructions to bidders shall contain all relevant information as",
+    "hierarchy": "5 > 5.3 > 5.3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 268,
+    "source": "guidelines_2006",
+    "number": "5.3.4",
+    "title": "(a) No contract shall be awarded to any contractor or supplier who",
+    "hierarchy": "5 > 5.3 > 5.3.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 269,
+    "source": "guidelines_2006",
+    "number": "5.3.4",
+    "title": "(a) No contract shall be awarded to any contractor or supplier who",
+    "hierarchy": "5 > 5.3 > 5.3.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 270,
+    "source": "guidelines_2006",
+    "number": "5.3.5",
+    "title": "(a) In the case of Procurement of Works one of the post",
+    "hierarchy": "5 > 5.3 > 5.3.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 271,
+    "source": "guidelines_2006",
+    "number": "5.3.6",
+    "title": "(a) In ICB or NCB Procurements under Foreign Funded Projects",
+    "hierarchy": "5 > 5.3 > 5.3.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 272,
+    "source": "guidelines_2006",
+    "number": "5.3.7",
+    "title": "(a) Any Bidder should be allowed to bid independently or in a joint",
+    "hierarchy": "5 > 5.3 > 5.3.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 273,
+    "source": "guidelines_2006",
+    "number": "5.3.8",
+    "title": "Foreign and Domestic Bidders to be treated equally",
+    "hierarchy": "5 > 5.3 > 5.3.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 274,
+    "source": "guidelines_2006",
+    "number": "5.3.9",
+    "title": "(a) If any foreign currency payments are envisaged under the",
+    "hierarchy": "5 > 5.3 > 5.3.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 275,
+    "source": "guidelines_2006",
+    "number": "5.3.9",
+    "title": "(a) If any foreign currency payments are envisaged under the",
+    "hierarchy": "5 > 5.3 > 5.3.9",
+    "chunk_index": 1
+  },
+  {
+    "id": 276,
+    "source": "guidelines_2006",
+    "number": "5.3.10",
+    "title": "(a) Bidders shall be required to submit bids valid for a period",
+    "hierarchy": "5 > 5.3 > 5.3.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 277,
+    "source": "guidelines_2006",
+    "number": "5.3.10",
+    "title": "(a) Bidders shall be required to submit bids valid for a period",
+    "hierarchy": "5 > 5.3 > 5.3.10",
+    "chunk_index": 1
+  },
+  {
+    "id": 278,
+    "source": "guidelines_2006",
+    "number": "5.3.11",
+    "title": "(a) A Bid security in the prescribed format must be submitted by all",
+    "hierarchy": "5 > 5.3 > 5.3.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 279,
+    "source": "guidelines_2006",
+    "number": "5.3.11",
+    "title": "(a) A Bid security in the prescribed format must be submitted by all",
+    "hierarchy": "5 > 5.3 > 5.3.11",
+    "chunk_index": 1
+  },
+  {
+    "id": 280,
+    "source": "guidelines_2006",
+    "number": "5.3.11",
+    "title": "(a) A Bid security in the prescribed format must be submitted by all",
+    "hierarchy": "5 > 5.3 > 5.3.11",
+    "chunk_index": 2
+  },
+  {
+    "id": 281,
+    "source": "guidelines_2006",
+    "number": "5.3.12",
+    "title": "(a) The PE may require the bidders to sign and submit a declaration",
+    "hierarchy": "5 > 5.3 > 5.3.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 282,
+    "source": "guidelines_2006",
+    "number": "5.3.12",
+    "title": "(a) The PE may require the bidders to sign and submit a declaration",
+    "hierarchy": "5 > 5.3 > 5.3.12",
+    "chunk_index": 1
+  },
+  {
+    "id": 283,
+    "source": "guidelines_2006",
+    "number": "5.3.13",
+    "title": "(a) The PE may opt for either of the following:",
+    "hierarchy": "5 > 5.3 > 5.3.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 284,
+    "source": "guidelines_2006",
+    "number": "5.3.13",
+    "title": "(a) The PE may opt for either of the following:",
+    "hierarchy": "5 > 5.3 > 5.3.13",
+    "chunk_index": 1
+  },
+  {
+    "id": 285,
+    "source": "guidelines_2006",
+    "number": "5.3.13",
+    "title": "(a) The PE may opt for either of the following:",
+    "hierarchy": "5 > 5.3 > 5.3.13",
+    "chunk_index": 2
+  },
+  {
+    "id": 286,
+    "source": "guidelines_2006",
+    "number": "5.3.13",
+    "title": "(a) The PE may opt for either of the following:",
+    "hierarchy": "5 > 5.3 > 5.3.13",
+    "chunk_index": 3
+  },
+  {
+    "id": 287,
+    "source": "guidelines_2006",
+    "number": "5.3.13",
+    "title": "(a) The PE may opt for either of the following:",
+    "hierarchy": "5 > 5.3 > 5.3.13",
+    "chunk_index": 4
+  },
+  {
+    "id": 288,
+    "source": "guidelines_2006",
+    "number": "5.3.14",
+    "title": "(a) All prospective bidders shall be provided with the same",
+    "hierarchy": "5 > 5.3 > 5.3.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 289,
+    "source": "guidelines_2006",
+    "number": "5.3.14",
+    "title": "(a) All prospective bidders shall be provided with the same",
+    "hierarchy": "5 > 5.3 > 5.3.14",
+    "chunk_index": 1
+  },
+  {
+    "id": 290,
+    "source": "guidelines_2006",
+    "number": "5.3.15",
+    "title": "(a) Any additional information, clarification, correction of errors or",
+    "hierarchy": "5 > 5.3 > 5.3.15",
+    "chunk_index": 0
+  },
+  {
+    "id": 291,
+    "source": "guidelines_2006",
+    "number": "5.3.16",
+    "title": "(a) If bidders are permitted to submit alternative bids it shall be",
+    "hierarchy": "5 > 5.3 > 5.3.16",
+    "chunk_index": 0
+  },
+  {
+    "id": 292,
+    "source": "guidelines_2006",
+    "number": "5.3.16",
+    "title": "(a) If bidders are permitted to submit alternative bids it shall be",
+    "hierarchy": "5 > 5.3 > 5.3.16",
+    "chunk_index": 1
+  },
+  {
+    "id": 293,
+    "source": "guidelines_2006",
+    "number": "5.3.17",
+    "title": "In the event where no alternative bid is permitted, but a bidder submits",
+    "hierarchy": "5 > 5.3 > 5.3.17",
+    "chunk_index": 0
+  },
+  {
+    "id": 294,
+    "source": "guidelines_2006",
+    "number": "5.3.18",
+    "title": "(a) The bidders should be instructed to indicate the VAT separately",
+    "hierarchy": "5 > 5.3 > 5.3.18",
+    "chunk_index": 0
+  },
+  {
+    "id": 295,
+    "source": "guidelines_2006",
+    "number": "5.3.19",
+    "title": "(a) The bidding documents shall also specify the relevant factors, in",
+    "hierarchy": "5 > 5.3 > 5.3.19",
+    "chunk_index": 0
+  },
+  {
+    "id": 296,
+    "source": "guidelines_2006",
+    "number": "5.3.20",
+    "title": "(a) If Bids based on alternative designs, materials, completion",
+    "hierarchy": "5 > 5.3 > 5.3.20",
+    "chunk_index": 0
+  },
+  {
+    "id": 297,
+    "source": "guidelines_2006",
+    "number": "5.4",
+    "title": "Conditions of Contract",
+    "hierarchy": "5 > 5.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 298,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 299,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 300,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 301,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 302,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 4
+  },
+  {
+    "id": 303,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 5
+  },
+  {
+    "id": 304,
+    "source": "guidelines_2006",
+    "number": "5.4.1",
+    "title": "(a) The draft contract shall be issued with the bidding document.",
+    "hierarchy": "5 > 5.4 > 5.4.1",
+    "chunk_index": 6
+  },
+  {
+    "id": 305,
+    "source": "guidelines_2006",
+    "number": "5.4.2",
+    "title": "In any contract for Works, exceeding a period of three months, the",
+    "hierarchy": "5 > 5.4 > 5.4.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 306,
+    "source": "guidelines_2006",
+    "number": "5.4.3",
+    "title": "For Foreign Funded Projects, if it is a requirement of the Foreign",
+    "hierarchy": "5 > 5.4 > 5.4.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 307,
+    "source": "guidelines_2006",
+    "number": "5.4.4",
+    "title": "Advance payment for any contract for Works shall be as follows:",
+    "hierarchy": "5 > 5.4 > 5.4.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 308,
+    "source": "guidelines_2006",
+    "number": "5.4.4",
+    "title": "Advance payment for any contract for Works shall be as follows:",
+    "hierarchy": "5 > 5.4 > 5.4.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 309,
+    "source": "guidelines_2006",
+    "number": "5.4.5",
+    "title": "When the bidding documents require opening of letters of credit",
+    "hierarchy": "5 > 5.4 > 5.4.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 310,
+    "source": "guidelines_2006",
+    "number": "5.4.5",
+    "title": "When the bidding documents require opening of letters of credit",
+    "hierarchy": "5 > 5.4 > 5.4.5",
+    "chunk_index": 1
+  },
+  {
+    "id": 311,
+    "source": "guidelines_2006",
+    "number": "5.4.7",
+    "title": "Alternatively, after the final completion of Works, contractors may",
+    "hierarchy": "5 > 5.4 > 5.4.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 312,
+    "source": "guidelines_2006",
+    "number": "5.4.8",
+    "title": "Works",
+    "hierarchy": "5 > 5.4 > 5.4.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 313,
+    "source": "guidelines_2006",
+    "number": "5.4.8",
+    "title": "Works",
+    "hierarchy": "5 > 5.4 > 5.4.8",
+    "chunk_index": 1
+  },
+  {
+    "id": 314,
+    "source": "guidelines_2006",
+    "number": "5.4.9",
+    "title": "Waiver of Performance Security",
+    "hierarchy": "5 > 5.4 > 5.4.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 315,
+    "source": "guidelines_2006",
+    "number": "5.4.10",
+    "title": "Goods",
+    "hierarchy": "5 > 5.4 > 5.4.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 316,
+    "source": "guidelines_2006",
+    "number": "5.4.10",
+    "title": "Goods",
+    "hierarchy": "5 > 5.4 > 5.4.10",
+    "chunk_index": 1
+  },
+  {
+    "id": 317,
+    "source": "guidelines_2006",
+    "number": "5.4.11",
+    "title": "The amount of VAT on the Goods supplied or Works done shall be",
+    "hierarchy": "5 > 5.4 > 5.4.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 318,
+    "source": "guidelines_2006",
+    "number": "5.4.12",
+    "title": "After making the payment to cover VAT, details of such payment",
+    "hierarchy": "5 > 5.4 > 5.4.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 319,
+    "source": "guidelines_2006",
+    "number": "5.4.13",
+    "title": "(a) Provision shall be made in the contract setting out the basis for",
+    "hierarchy": "5 > 5.4 > 5.4.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 320,
+    "source": "guidelines_2006",
+    "number": "5.4.13",
+    "title": "(a) Provision shall be made in the contract setting out the basis for",
+    "hierarchy": "5 > 5.4 > 5.4.13",
+    "chunk_index": 1
+  },
+  {
+    "id": 321,
+    "source": "guidelines_2006",
+    "number": "5.4.14",
+    "title": "(a) All disputes arising out of contract agreements shall be governed",
+    "hierarchy": "5 > 5.4 > 5.4.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 322,
+    "source": "guidelines_2006",
+    "number": "5.4.14",
+    "title": "(a) All disputes arising out of contract agreements shall be governed",
+    "hierarchy": "5 > 5.4 > 5.4.14",
+    "chunk_index": 1
+  },
+  {
+    "id": 323,
+    "source": "guidelines_2006",
+    "number": "5.4.15",
+    "title": "Subject to the provisions of the Arbitration Act, the Rules of",
+    "hierarchy": "5 > 5.4 > 5.4.15",
+    "chunk_index": 0
+  },
+  {
+    "id": 324,
+    "source": "guidelines_2006",
+    "number": "5.4.16",
+    "title": "The venue of arbitration shall be in Sri Lanka, for GoSL funded",
+    "hierarchy": "5 > 5.4 > 5.4.16",
+    "chunk_index": 0
+  },
+  {
+    "id": 325,
+    "source": "guidelines_2006",
+    "number": "5.5",
+    "title": "The Law of Contract",
+    "hierarchy": "5 > 5.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 326,
+    "source": "guidelines_2006",
+    "number": "5.5.1",
+    "title": "The law governing the Contract shall be the laws of the Democratic",
+    "hierarchy": "5 > 5.5 > 5.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 327,
+    "source": "guidelines_2006",
+    "number": "5.6",
+    "title": "Specifications",
+    "hierarchy": "5 > 5.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 328,
+    "source": "guidelines_2006",
+    "number": "5.6.1",
+    "title": "(a) The specification for the Goods or Works to be procured shall",
+    "hierarchy": "5 > 5.6 > 5.6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 329,
+    "source": "guidelines_2006",
+    "number": "5.6.1",
+    "title": "(a) The specification for the Goods or Works to be procured shall",
+    "hierarchy": "5 > 5.6 > 5.6.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 330,
+    "source": "guidelines_2006",
+    "number": "5.6.2",
+    "title": "The specification shall permit the acceptance of offers for Goods",
+    "hierarchy": "5 > 5.6 > 5.6.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 331,
+    "source": "guidelines_2006",
+    "number": "5.6.3",
+    "title": "(a) To the maximum extent possible, the standards adopted by Sri",
+    "hierarchy": "5 > 5.6 > 5.6.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 332,
+    "source": "guidelines_2006",
+    "number": "5.6.4",
+    "title": "(a) Specifications for Works would be those which are recommended",
+    "hierarchy": "5 > 5.6 > 5.6.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 333,
+    "source": "guidelines_2006",
+    "number": "6.1",
+    "title": "Issuance of Bidding Documents",
+    "hierarchy": "6 > 6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 334,
+    "source": "guidelines_2006",
+    "number": "6.1.1",
+    "title": "(a) The bidding documents should be made available during business",
+    "hierarchy": "6 > 6.1 > 6.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 335,
+    "source": "guidelines_2006",
+    "number": "6.1.1",
+    "title": "(a) The bidding documents should be made available during business",
+    "hierarchy": "6 > 6.1 > 6.1.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 336,
+    "source": "guidelines_2006",
+    "number": "6.1.2",
+    "title": "(a) The bidding documents should be made available for inspection,",
+    "hierarchy": "6 > 6.1 > 6.1.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 337,
+    "source": "guidelines_2006",
+    "number": "6.1.3",
+    "title": "The prescribed fee (if any) for purchase of bidding documents should",
+    "hierarchy": "6 > 6.1 > 6.1.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 338,
+    "source": "guidelines_2006",
+    "number": "6.1.4",
+    "title": "The PE shall keep a record pertaining to the issuance of the bid",
+    "hierarchy": "6 > 6.1 > 6.1.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 339,
+    "source": "guidelines_2006",
+    "number": "6.2",
+    "title": "Bidding Period",
+    "hierarchy": "6 > 6.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 340,
+    "source": "guidelines_2006",
+    "number": "6.2.1",
+    "title": "(a) The bidding period shall commence from the date on which the",
+    "hierarchy": "6 > 6.2 > 6.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 341,
+    "source": "guidelines_2006",
+    "number": "6.2.2",
+    "title": "Minimum period of bidding time shall be maintained as stated below:",
+    "hierarchy": "6 > 6.2 > 6.2.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 342,
+    "source": "guidelines_2006",
+    "number": "6.3",
+    "title": "Submission/Receipt of Bids",
+    "hierarchy": "6 > 6.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 343,
+    "source": "guidelines_2006",
+    "number": "6.3.1",
+    "title": "(a) The bids shall be received only at one location by;",
+    "hierarchy": "6 > 6.3 > 6.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 344,
+    "source": "guidelines_2006",
+    "number": "6.3.1",
+    "title": "(a) The bids shall be received only at one location by;",
+    "hierarchy": "6 > 6.3 > 6.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 345,
+    "source": "guidelines_2006",
+    "number": "6.3.2",
+    "title": "Bids shall be closed at the time specified in the bidding documents.",
+    "hierarchy": "6 > 6.3 > 6.3.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 346,
+    "source": "guidelines_2006",
+    "number": "6.3.3",
+    "title": "(a) Responsibility of opening of Bids is vested with the PC. The PC",
+    "hierarchy": "6 > 6.3 > 6.3.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 347,
+    "source": "guidelines_2006",
+    "number": "6.3.4",
+    "title": "(a) Only the Bids marked as \"Original\" shall be opened at the Bid",
+    "hierarchy": "6 > 6.3 > 6.3.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 348,
+    "source": "guidelines_2006",
+    "number": "6.3.4",
+    "title": "(a) Only the Bids marked as \"Original\" shall be opened at the Bid",
+    "hierarchy": "6 > 6.3 > 6.3.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 349,
+    "source": "guidelines_2006",
+    "number": "6.3.5",
+    "title": "The Bid Opening Committee shall read out the following to those",
+    "hierarchy": "6 > 6.3 > 6.3.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 350,
+    "source": "guidelines_2006",
+    "number": "6.3.6",
+    "title": "The proceedings of the bid opening shall be recorded in the prescribed",
+    "hierarchy": "6 > 6.3 > 6.3.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 351,
+    "source": "guidelines_2006",
+    "number": "6.3.7",
+    "title": "The original Bids together with the minutes pertaining to bid opening",
+    "hierarchy": "6 > 6.3 > 6.3.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 352,
+    "source": "guidelines_2006",
+    "number": "7.1",
+    "title": "Meetings of Technical Evaluation Committees (TEC)",
+    "hierarchy": "7 > 7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 353,
+    "source": "guidelines_2006",
+    "number": "7.1.1",
+    "title": "Upon the receipt of Bids, the Chairperson of the TEC shall convene",
+    "hierarchy": "7 > 7.1 > 7.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 354,
+    "source": "guidelines_2006",
+    "number": "7.2",
+    "title": "Confidentiality",
+    "hierarchy": "7 > 7.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 355,
+    "source": "guidelines_2006",
+    "number": "7.2.1",
+    "title": "After bid opening, information relating to substance, clarification,",
+    "hierarchy": "7 > 7.2 > 7.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 356,
+    "source": "guidelines_2006",
+    "number": "7.3",
+    "title": "Services of Consultant/s for Evaluation of Bids",
+    "hierarchy": "7 > 7.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 357,
+    "source": "guidelines_2006",
+    "number": "7.3.1",
+    "title": "(a) If the evaluation of Bids is entrusted to consultant/s, it shall be",
+    "hierarchy": "7 > 7.3 > 7.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 358,
+    "source": "guidelines_2006",
+    "number": "7.4",
+    "title": "Time Frame for Bid Evaluation",
+    "hierarchy": "7 > 7.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 359,
+    "source": "guidelines_2006",
+    "number": "7.4.1",
+    "title": "Bid evaluation shall be undertaken expeditiously, leaving ample time",
+    "hierarchy": "7 > 7.4 > 7.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 360,
+    "source": "guidelines_2006",
+    "number": "7.5",
+    "title": "Extension of Bid Validity",
+    "hierarchy": "7 > 7.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 361,
+    "source": "guidelines_2006",
+    "number": "7.5.1",
+    "title": "(a) PC must endeavour to make the award in keeping with the PTS",
+    "hierarchy": "7 > 7.5 > 7.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 362,
+    "source": "guidelines_2006",
+    "number": "7.5.1",
+    "title": "(a) PC must endeavour to make the award in keeping with the PTS",
+    "hierarchy": "7 > 7.5 > 7.5.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 363,
+    "source": "guidelines_2006",
+    "number": "7.6",
+    "title": "Original Bid to be Evaluated",
+    "hierarchy": "7 > 7.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 364,
+    "source": "guidelines_2006",
+    "number": "7.6.1",
+    "title": "(a) Only the Bids marked \"original\" shall be evaluated by the TEC.",
+    "hierarchy": "7 > 7.6 > 7.6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 365,
+    "source": "guidelines_2006",
+    "number": "7.7",
+    "title": "Purpose and Stages of Bid Evaluation",
+    "hierarchy": "7 > 7.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 366,
+    "source": "guidelines_2006",
+    "number": "7.7.1",
+    "title": "(a) The purpose of bid evaluation is to determine the lowest evaluated",
+    "hierarchy": "7 > 7.7 > 7.7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 367,
+    "source": "guidelines_2006",
+    "number": "7.7.1",
+    "title": "(a) The purpose of bid evaluation is to determine the lowest evaluated",
+    "hierarchy": "7 > 7.7 > 7.7.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 368,
+    "source": "guidelines_2006",
+    "number": "7.8",
+    "title": "Bid Examination",
+    "hierarchy": "7 > 7.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 369,
+    "source": "guidelines_2006",
+    "number": "7.8",
+    "title": "Bid Examination",
+    "hierarchy": "7 > 7.8",
+    "chunk_index": 1
+  },
+  {
+    "id": 370,
+    "source": "guidelines_2006",
+    "number": "7.8",
+    "title": "Bid Examination",
+    "hierarchy": "7 > 7.8",
+    "chunk_index": 2
+  },
+  {
+    "id": 371,
+    "source": "guidelines_2006",
+    "number": "7.8",
+    "title": "Bid Examination",
+    "hierarchy": "7 > 7.8",
+    "chunk_index": 3
+  },
+  {
+    "id": 372,
+    "source": "guidelines_2006",
+    "number": "7.8.1",
+    "title": "Deviation from any provisions of the bidding documents (instruction",
+    "hierarchy": "7 > 7.8 > 7.8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 373,
+    "source": "guidelines_2006",
+    "number": "7.8.2",
+    "title": "Deviations from bidding conditions must be clearly identified.",
+    "hierarchy": "7 > 7.8 > 7.8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 374,
+    "source": "guidelines_2006",
+    "number": "7.8.3",
+    "title": "Minor Deviations would be one which:",
+    "hierarchy": "7 > 7.8 > 7.8.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 375,
+    "source": "guidelines_2006",
+    "number": "7.8.3",
+    "title": "Minor Deviations would be one which:",
+    "hierarchy": "7 > 7.8 > 7.8.3",
+    "chunk_index": 1
+  },
+  {
+    "id": 376,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 377,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 378,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 2
+  },
+  {
+    "id": 379,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 3
+  },
+  {
+    "id": 380,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 4
+  },
+  {
+    "id": 381,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 5
+  },
+  {
+    "id": 382,
+    "source": "guidelines_2006",
+    "number": "7.8.4",
+    "title": "The following events, the list of which is not meant to be exhaustive",
+    "hierarchy": "7 > 7.8 > 7.8.4",
+    "chunk_index": 6
+  },
+  {
+    "id": 383,
+    "source": "guidelines_2006",
+    "number": "7.8.5",
+    "title": "There may be some other deviations which do not appear at first",
+    "hierarchy": "7 > 7.8 > 7.8.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 384,
+    "source": "guidelines_2006",
+    "number": "7.8.5",
+    "title": "There may be some other deviations which do not appear at first",
+    "hierarchy": "7 > 7.8 > 7.8.5",
+    "chunk_index": 1
+  },
+  {
+    "id": 385,
+    "source": "guidelines_2006",
+    "number": "7.8.5",
+    "title": "There may be some other deviations which do not appear at first",
+    "hierarchy": "7 > 7.8 > 7.8.5",
+    "chunk_index": 2
+  },
+  {
+    "id": 386,
+    "source": "guidelines_2006",
+    "number": "7.8.5",
+    "title": "There may be some other deviations which do not appear at first",
+    "hierarchy": "7 > 7.8 > 7.8.5",
+    "chunk_index": 3
+  },
+  {
+    "id": 387,
+    "source": "guidelines_2006",
+    "number": "7.8.6",
+    "title": "A substantially responsive bid should be one which conforms to all",
+    "hierarchy": "7 > 7.8 > 7.8.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 388,
+    "source": "guidelines_2006",
+    "number": "7.8.6",
+    "title": "A substantially responsive bid should be one which conforms to all",
+    "hierarchy": "7 > 7.8 > 7.8.6",
+    "chunk_index": 1
+  },
+  {
+    "id": 389,
+    "source": "guidelines_2006",
+    "number": "7.8.7",
+    "title": "All Bids that are considered as substantial responsive shall be subjected",
+    "hierarchy": "7 > 7.8 > 7.8.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 390,
+    "source": "guidelines_2006",
+    "number": "7.9",
+    "title": "Detailed Bid Evaluation",
+    "hierarchy": "7 > 7.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 391,
+    "source": "guidelines_2006",
+    "number": "7.9.1",
+    "title": "(a) The manner in which the bids are to be evaluated, including the",
+    "hierarchy": "7 > 7.9 > 7.9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 392,
+    "source": "guidelines_2006",
+    "number": "7.9.2",
+    "title": "Step-by-step procedure to be followed:",
+    "hierarchy": "7 > 7.9 > 7.9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 393,
+    "source": "guidelines_2006",
+    "number": "7.9.3",
+    "title": "The bid price should be adjusted to account for items not included in",
+    "hierarchy": "7 > 7.9 > 7.9.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 394,
+    "source": "guidelines_2006",
+    "number": "7.9.4",
+    "title": "With a view to providing a realistic value addition to local raw materials",
+    "hierarchy": "7 > 7.9 > 7.9.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 395,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 396,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 1
+  },
+  {
+    "id": 397,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 2
+  },
+  {
+    "id": 398,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 3
+  },
+  {
+    "id": 399,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 4
+  },
+  {
+    "id": 400,
+    "source": "guidelines_2006",
+    "number": "7.9.5",
+    "title": "Domestic bidders in Works contracts funded by",
+    "hierarchy": "7 > 7.9 > 7.9.5",
+    "chunk_index": 5
+  },
+  {
+    "id": 401,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 402,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 1
+  },
+  {
+    "id": 403,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 2
+  },
+  {
+    "id": 404,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 3
+  },
+  {
+    "id": 405,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 4
+  },
+  {
+    "id": 406,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 5
+  },
+  {
+    "id": 407,
+    "source": "guidelines_2006",
+    "number": "7.9.6",
+    "title": "Domestically manufactured Goods for",
+    "hierarchy": "7 > 7.9 > 7.9.6",
+    "chunk_index": 6
+  },
+  {
+    "id": 408,
+    "source": "guidelines_2006",
+    "number": "7.9.7",
+    "title": "During the evaluation of bids (particularly for complex Works) there",
+    "hierarchy": "7 > 7.9 > 7.9.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 409,
+    "source": "guidelines_2006",
+    "number": "7.9.8",
+    "title": "The bidder should be able to clearly comprehend that any clarification",
+    "hierarchy": "7 > 7.9 > 7.9.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 410,
+    "source": "guidelines_2006",
+    "number": "7.9.9",
+    "title": "At the request made by the TEC, the PE will seek such clarifications",
+    "hierarchy": "7 > 7.9 > 7.9.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 411,
+    "source": "guidelines_2006",
+    "number": "7.9.10",
+    "title": "Bids shall be first evaluated strictly according to the criteria and",
+    "hierarchy": "7 > 7.9 > 7.9.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 412,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 413,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 1
+  },
+  {
+    "id": 414,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 2
+  },
+  {
+    "id": 415,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 3
+  },
+  {
+    "id": 416,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 4
+  },
+  {
+    "id": 417,
+    "source": "guidelines_2006",
+    "number": "7.9.11",
+    "title": "Upon selection of the lowest substantially responsive Bid:",
+    "hierarchy": "7 > 7.9 > 7.9.11",
+    "chunk_index": 5
+  },
+  {
+    "id": 418,
+    "source": "guidelines_2006",
+    "number": "7.10",
+    "title": "Post Qualification",
+    "hierarchy": "7 > 7.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 419,
+    "source": "guidelines_2006",
+    "number": "7.10.1",
+    "title": "(a) Post-qualification of bidders serves as a safety measure to ensure",
+    "hierarchy": "7 > 7.10 > 7.10.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 420,
+    "source": "guidelines_2006",
+    "number": "7.10.2",
+    "title": "Even if pre-qualification was done, if there is a considerable time",
+    "hierarchy": "7 > 7.10 > 7.10.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 421,
+    "source": "guidelines_2006",
+    "number": "7.10.3",
+    "title": "A bidder not complying substantially with the post-qualification criteria",
+    "hierarchy": "7 > 7.10 > 7.10.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 422,
+    "source": "guidelines_2006",
+    "number": "7.11",
+    "title": "Bid Evaluation Report",
+    "hierarchy": "7 > 7.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 423,
+    "source": "guidelines_2006",
+    "number": "7.11.1",
+    "title": "Immediately after the evaluation is completed the TEC should prepare",
+    "hierarchy": "7 > 7.11 > 7.11.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 424,
+    "source": "guidelines_2006",
+    "number": "7.12",
+    "title": "Rejection of all Bids Received",
+    "hierarchy": "7 > 7.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 425,
+    "source": "guidelines_2006",
+    "number": "7.12.1",
+    "title": "Rejection of all bids received can be justified when lack of effective",
+    "hierarchy": "7 > 7.12 > 7.12.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 426,
+    "source": "guidelines_2006",
+    "number": "7.12.2",
+    "title": "(a) Even when only one bid is received, after wide publicity has",
+    "hierarchy": "7 > 7.12 > 7.12.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 427,
+    "source": "guidelines_2006",
+    "number": "7.12.3",
+    "title": "(a) If in the view of the PC, lack of effective competition is evident,",
+    "hierarchy": "7 > 7.12 > 7.12.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 428,
+    "source": "guidelines_2006",
+    "number": "7.12.4",
+    "title": "The PC shall keep a record of matters agreed with the bidder during",
+    "hierarchy": "7 > 7.12 > 7.12.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 429,
+    "source": "guidelines_2006",
+    "number": "8.1",
+    "title": "Recommendation/Determination of Contract Award",
+    "hierarchy": "8 > 8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 430,
+    "source": "guidelines_2006",
+    "number": "8.1.1",
+    "title": "After the PC has carefully examined the TEC report and has sought",
+    "hierarchy": "8 > 8.1 > 8.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 431,
+    "source": "guidelines_2006",
+    "number": "8.1.1",
+    "title": "After the PC has carefully examined the TEC report and has sought",
+    "hierarchy": "8 > 8.1 > 8.1.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 432,
+    "source": "guidelines_2006",
+    "number": "8.1.1",
+    "title": "After the PC has carefully examined the TEC report and has sought",
+    "hierarchy": "8 > 8.1 > 8.1.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 433,
+    "source": "guidelines_2006",
+    "number": "8.1.1",
+    "title": "After the PC has carefully examined the TEC report and has sought",
+    "hierarchy": "8 > 8.1 > 8.1.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 434,
+    "source": "guidelines_2006",
+    "number": "8.1.1",
+    "title": "After the PC has carefully examined the TEC report and has sought",
+    "hierarchy": "8 > 8.1 > 8.1.1",
+    "chunk_index": 4
+  },
+  {
+    "id": 435,
+    "source": "guidelines_2006",
+    "number": "8.2",
+    "title": "Communication to all Bidders of the Intention to Award",
+    "hierarchy": "8 > 8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 436,
+    "source": "guidelines_2006",
+    "number": "8.2.1",
+    "title": "The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.2 > 8.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 437,
+    "source": "guidelines_2006",
+    "number": "8.3",
+    "title": "Appeals against Contract Awards recommended by the CAPC",
+    "hierarchy": "8 > 8.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 438,
+    "source": "guidelines_2006",
+    "number": "8.3.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.3 > 8.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 439,
+    "source": "guidelines_2006",
+    "number": "8.3.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.3 > 8.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 440,
+    "source": "guidelines_2006",
+    "number": "8.4",
+    "title": "Appeal Board",
+    "hierarchy": "8 > 8.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 441,
+    "source": "guidelines_2006",
+    "number": "8.4.1",
+    "title": "(a) The Appeal Board upon receipt of any representations from the",
+    "hierarchy": "8 > 8.4 > 8.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 442,
+    "source": "guidelines_2006",
+    "number": "8.4.1",
+    "title": "(a) The Appeal Board upon receipt of any representations from the",
+    "hierarchy": "8 > 8.4 > 8.4.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 443,
+    "source": "guidelines_2006",
+    "number": "8.5",
+    "title": "Contract Award in relation to MPC",
+    "hierarchy": "8 > 8.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 444,
+    "source": "guidelines_2006",
+    "number": "8.5.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.5 > 8.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 445,
+    "source": "guidelines_2006",
+    "number": "8.5.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.5 > 8.5.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 446,
+    "source": "guidelines_2006",
+    "number": "8.5.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.5 > 8.5.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 447,
+    "source": "guidelines_2006",
+    "number": "8.5.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.5 > 8.5.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 448,
+    "source": "guidelines_2006",
+    "number": "8.5.1",
+    "title": "(a) The Secretary to the Line Ministry shall within one week of being",
+    "hierarchy": "8 > 8.5 > 8.5.1",
+    "chunk_index": 4
+  },
+  {
+    "id": 449,
+    "source": "guidelines_2006",
+    "number": "8.5.2",
+    "title": "If no such representations are received, the Secretary to the Line",
+    "hierarchy": "8 > 8.5 > 8.5.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 450,
+    "source": "guidelines_2006",
+    "number": "8.6",
+    "title": "Contract Award in Relation to Cabinet Appointed Procurement",
+    "hierarchy": "8 > 8.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 451,
+    "source": "guidelines_2006",
+    "number": "8.6",
+    "title": "Contract Award in Relation to Cabinet Appointed Procurement",
+    "hierarchy": "8 > 8.6",
+    "chunk_index": 1
+  },
+  {
+    "id": 452,
+    "source": "guidelines_2006",
+    "number": "8.6",
+    "title": "Contract Award in Relation to Cabinet Appointed Procurement",
+    "hierarchy": "8 > 8.6",
+    "chunk_index": 2
+  },
+  {
+    "id": 453,
+    "source": "guidelines_2006",
+    "number": "8.3",
+    "title": "above, received any representations from unsuccessful",
+    "hierarchy": "8 > 8.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 454,
+    "source": "guidelines_2006",
+    "number": "8.7",
+    "title": "Award of Contract",
+    "hierarchy": "8 > 8.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 455,
+    "source": "guidelines_2006",
+    "number": "8.7.1",
+    "title": "(a) Prior to contract award the PE should ensure that budgetary",
+    "hierarchy": "8 > 8.7 > 8.7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 456,
+    "source": "guidelines_2006",
+    "number": "8.8",
+    "title": "Debriefing",
+    "hierarchy": "8 > 8.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 457,
+    "source": "guidelines_2006",
+    "number": "8.8.1",
+    "title": "The Purposes of debriefing are to:",
+    "hierarchy": "8 > 8.8 > 8.8.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 458,
+    "source": "guidelines_2006",
+    "number": "8.8.1",
+    "title": "The Purposes of debriefing are to:",
+    "hierarchy": "8 > 8.8 > 8.8.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 459,
+    "source": "guidelines_2006",
+    "number": "8.8.2",
+    "title": "After the notification of contract award, a bidder who wishes to",
+    "hierarchy": "8 > 8.8 > 8.8.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 460,
+    "source": "guidelines_2006",
+    "number": "8.9",
+    "title": "Execution of Contract",
+    "hierarchy": "8 > 8.9",
+    "chunk_index": 0
+  },
+  {
+    "id": 461,
+    "source": "guidelines_2006",
+    "number": "8.9.1",
+    "title": "Following the acceptance of a bid submitted by a bidder, a formal",
+    "hierarchy": "8 > 8.9 > 8.9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 462,
+    "source": "guidelines_2006",
+    "number": "8.9.2",
+    "title": "For any contract less than the amounts specified under Guideline",
+    "hierarchy": "8 > 8.9 > 8.9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 463,
+    "source": "guidelines_2006",
+    "number": "8.9.1",
+    "title": "above, the PE may at its discretion enter into a formal contract.",
+    "hierarchy": "8 > 8.9 > 8.9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 464,
+    "source": "guidelines_2006",
+    "number": "8.9.3",
+    "title": "The formal contract shall be signed by the appropriate authority.",
+    "hierarchy": "8 > 8.9 > 8.9.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 465,
+    "source": "guidelines_2006",
+    "number": "8.10",
+    "title": "Publication of Contract Award",
+    "hierarchy": "8 > 8.10",
+    "chunk_index": 0
+  },
+  {
+    "id": 466,
+    "source": "guidelines_2006",
+    "number": "8.10.1",
+    "title": "The PE should publish promptly in its website (if available), the NPA",
+    "hierarchy": "8 > 8.10 > 8.10.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 467,
+    "source": "guidelines_2006",
+    "number": "8.10.2",
+    "title": "If the contract value exceeds SLR 250,000,000 (Sri Lanka Rupees",
+    "hierarchy": "8 > 8.10 > 8.10.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 468,
+    "source": "guidelines_2006",
+    "number": "8.11",
+    "title": "Default",
+    "hierarchy": "8 > 8.11",
+    "chunk_index": 0
+  },
+  {
+    "id": 469,
+    "source": "guidelines_2006",
+    "number": "8.11.1",
+    "title": "Data Base of Defaulting Contractors/Suppliers - NPA.",
+    "hierarchy": "8 > 8.11 > 8.11.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 470,
+    "source": "guidelines_2006",
+    "number": "8.11.1",
+    "title": "Data Base of Defaulting Contractors/Suppliers - NPA.",
+    "hierarchy": "8 > 8.11 > 8.11.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 471,
+    "source": "guidelines_2006",
+    "number": "8.11.1",
+    "title": "Data Base of Defaulting Contractors/Suppliers - NPA.",
+    "hierarchy": "8 > 8.11 > 8.11.1",
+    "chunk_index": 2
+  },
+  {
+    "id": 472,
+    "source": "guidelines_2006",
+    "number": "8.11.1",
+    "title": "Data Base of Defaulting Contractors/Suppliers - NPA.",
+    "hierarchy": "8 > 8.11 > 8.11.1",
+    "chunk_index": 3
+  },
+  {
+    "id": 473,
+    "source": "guidelines_2006",
+    "number": "8.11.2",
+    "title": "Default on Bid Security Declaration",
+    "hierarchy": "8 > 8.11 > 8.11.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 474,
+    "source": "guidelines_2006",
+    "number": "8.11.3",
+    "title": "(a) Upon receipt of such notification from a PE, NPA will issue a",
+    "hierarchy": "8 > 8.11 > 8.11.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 475,
+    "source": "guidelines_2006",
+    "number": "8.11.4",
+    "title": "(a) In every case involving a contract exceeding the value of",
+    "hierarchy": "8 > 8.11 > 8.11.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 476,
+    "source": "guidelines_2006",
+    "number": "8.11.4",
+    "title": "(a) In every case involving a contract exceeding the value of",
+    "hierarchy": "8 > 8.11 > 8.11.4",
+    "chunk_index": 1
+  },
+  {
+    "id": 477,
+    "source": "guidelines_2006",
+    "number": "8.11.4",
+    "title": "(a) In every case involving a contract exceeding the value of",
+    "hierarchy": "8 > 8.11 > 8.11.4",
+    "chunk_index": 2
+  },
+  {
+    "id": 478,
+    "source": "guidelines_2006",
+    "number": "8.11.5",
+    "title": "(a) On receipt of the aforementioned report, the Secretary to the",
+    "hierarchy": "8 > 8.11 > 8.11.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 479,
+    "source": "guidelines_2006",
+    "number": "8.11.5",
+    "title": "(a) On receipt of the aforementioned report, the Secretary to the",
+    "hierarchy": "8 > 8.11 > 8.11.5",
+    "chunk_index": 1
+  },
+  {
+    "id": 480,
+    "source": "guidelines_2006",
+    "number": "8.11.6",
+    "title": "(a) For contracts, the value of which is less than SLR 5,000,000.00",
+    "hierarchy": "8 > 8.11 > 8.11.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 481,
+    "source": "guidelines_2006",
+    "number": "8.12",
+    "title": "Contract Administration",
+    "hierarchy": "8 > 8.12",
+    "chunk_index": 0
+  },
+  {
+    "id": 482,
+    "source": "guidelines_2006",
+    "number": "8.12.1",
+    "title": "(a) The PE shall be responsible for ensuring that the execution of",
+    "hierarchy": "8 > 8.12 > 8.12.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 483,
+    "source": "guidelines_2006",
+    "number": "8.12.1",
+    "title": "(a) The PE shall be responsible for ensuring that the execution of",
+    "hierarchy": "8 > 8.12 > 8.12.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 484,
+    "source": "guidelines_2006",
+    "number": "8.12.2",
+    "title": "For Works, the Engineer/Consultant shall issue a Certificate of",
+    "hierarchy": "8 > 8.12 > 8.12.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 485,
+    "source": "guidelines_2006",
+    "number": "8.12.3",
+    "title": "For Goods, the officer in charge shall issue a certificate that:",
+    "hierarchy": "8 > 8.12 > 8.12.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 486,
+    "source": "guidelines_2006",
+    "number": "8.12.4",
+    "title": "For Services the officer-in-charge shall issue a certificate that the",
+    "hierarchy": "8 > 8.12 > 8.12.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 487,
+    "source": "guidelines_2006",
+    "number": "8.13",
+    "title": "Variation Orders - Works",
+    "hierarchy": "8 > 8.13",
+    "chunk_index": 0
+  },
+  {
+    "id": 488,
+    "source": "guidelines_2006",
+    "number": "8.13.1",
+    "title": "The conditions of contract will normally empower the Employer to",
+    "hierarchy": "8 > 8.13 > 8.13.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 489,
+    "source": "guidelines_2006",
+    "number": "8.13.2",
+    "title": "A contract variation order is used to obtain approval to order",
+    "hierarchy": "8 > 8.13 > 8.13.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 490,
+    "source": "guidelines_2006",
+    "number": "8.13.3",
+    "title": "Contract variation orders may be authorized by the Head of",
+    "hierarchy": "8 > 8.13 > 8.13.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 491,
+    "source": "guidelines_2006",
+    "number": "8.13.4",
+    "title": "When the approved contingency provision is exceeded or where",
+    "hierarchy": "8 > 8.13 > 8.13.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 492,
+    "source": "guidelines_2006",
+    "number": "8.14",
+    "title": "Extension of Time",
+    "hierarchy": "8 > 8.14",
+    "chunk_index": 0
+  },
+  {
+    "id": 493,
+    "source": "guidelines_2006",
+    "number": "8.14.1",
+    "title": "Extensions of time may be granted by an authorized person, in",
+    "hierarchy": "8 > 8.14 > 8.14.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 494,
+    "source": "guidelines_2006",
+    "number": "9.1",
+    "title": "Procurement of Commodities",
+    "hierarchy": "9 > 9.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 495,
+    "source": "guidelines_2006",
+    "number": "9.1.1",
+    "title": "Procurement of commodities often involve multiple awards for partial",
+    "hierarchy": "9 > 9.1 > 9.1.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 496,
+    "source": "guidelines_2006",
+    "number": "9.1.2",
+    "title": "(a) A list of pre-qualified bidders may be drawn up to whom periodic",
+    "hierarchy": "9 > 9.1 > 9.1.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 497,
+    "source": "guidelines_2006",
+    "number": "9.1.2",
+    "title": "(a) A list of pre-qualified bidders may be drawn up to whom periodic",
+    "hierarchy": "9 > 9.1 > 9.1.2",
+    "chunk_index": 1
+  },
+  {
+    "id": 498,
+    "source": "guidelines_2006",
+    "number": "9.2",
+    "title": "Procurement of Spare parts",
+    "hierarchy": "9 > 9.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 499,
+    "source": "guidelines_2006",
+    "number": "9.2.1",
+    "title": "PEs may purchase spare parts from the original manufacturer of",
+    "hierarchy": "9 > 9.2 > 9.2.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 500,
+    "source": "guidelines_2006",
+    "number": "9.3",
+    "title": "Repairs to Motor Vehicles and Equipment",
+    "hierarchy": "9 > 9.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 501,
+    "source": "guidelines_2006",
+    "number": "9.3.1",
+    "title": "(a) Repairs to motor vehicles and other equipment may be carried",
+    "hierarchy": "9 > 9.3 > 9.3.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 502,
+    "source": "guidelines_2006",
+    "number": "9.3.1",
+    "title": "(a) Repairs to motor vehicles and other equipment may be carried",
+    "hierarchy": "9 > 9.3 > 9.3.1",
+    "chunk_index": 1
+  },
+  {
+    "id": 503,
+    "source": "guidelines_2006",
+    "number": "9.4",
+    "title": "Periodicals and Publications",
+    "hierarchy": "9 > 9.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 504,
+    "source": "guidelines_2006",
+    "number": "9.4.1",
+    "title": "Periodicals and publications may be purchased directly from the",
+    "hierarchy": "9 > 9.4 > 9.4.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 505,
+    "source": "guidelines_2006",
+    "number": "9.5",
+    "title": "Purchasing of Fuel",
+    "hierarchy": "9 > 9.5",
+    "chunk_index": 0
+  },
+  {
+    "id": 506,
+    "source": "guidelines_2006",
+    "number": "9.5.1",
+    "title": "Requirements of fuel may be purchased from depot/s closer to the",
+    "hierarchy": "9 > 9.5 > 9.5.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 507,
+    "source": "guidelines_2006",
+    "number": "9.6",
+    "title": "Procurement of Pharmaceuticals and Medical Equipment",
+    "hierarchy": "9 > 9.6",
+    "chunk_index": 0
+  },
+  {
+    "id": 508,
+    "source": "guidelines_2006",
+    "number": "9.6.1",
+    "title": "Procurement of drugs, vaccines, medical devices, biological products,",
+    "hierarchy": "9 > 9.6 > 9.6.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 509,
+    "source": "guidelines_2006",
+    "number": "9.6.2",
+    "title": "A separate publication containing Guidelines relating to the",
+    "hierarchy": "9 > 9.6 > 9.6.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 510,
+    "source": "guidelines_2006",
+    "number": "9.6.3",
+    "title": "The broad principles of procurement outlined in these Guidelines,",
+    "hierarchy": "9 > 9.6 > 9.6.3",
+    "chunk_index": 0
+  },
+  {
+    "id": 511,
+    "source": "guidelines_2006",
+    "number": "9.6.4",
+    "title": "These Guidelines will continue to be applicable as the appropriate",
+    "hierarchy": "9 > 9.6 > 9.6.4",
+    "chunk_index": 0
+  },
+  {
+    "id": 512,
+    "source": "guidelines_2006",
+    "number": "9.7",
+    "title": "Information Systems",
+    "hierarchy": "9 > 9.7",
+    "chunk_index": 0
+  },
+  {
+    "id": 513,
+    "source": "guidelines_2006",
+    "number": "9.7.1",
+    "title": "Large information technology and systems contracts are among the",
+    "hierarchy": "9 > 9.7 > 9.7.1",
+    "chunk_index": 0
+  },
+  {
+    "id": 514,
+    "source": "guidelines_2006",
+    "number": "9.7.2",
+    "title": "Two key features distinguish supply and installation of IT systems",
+    "hierarchy": "9 > 9.7 > 9.7.2",
+    "chunk_index": 0
+  },
+  {
+    "id": 515,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 0
+  },
+  {
+    "id": 516,
+    "source": "guidelines_2006",
+    "number": "9.8",
+    "title": "E-Procurement",
+    "hierarchy": "9 > 9.8",
+    "chunk_index": 1
+  }
+]
