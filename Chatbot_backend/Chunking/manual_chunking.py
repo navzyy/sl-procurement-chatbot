@@ -4,10 +4,9 @@ import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Folders:
-# ...\pdf extraction\Chunking\manual_chunking.py   (this script)
-# ...\pdf extraction\PDF_Extraction\manual_2006.json  (input produced by manual_extraction2.py)
+
 BASE_DIR = Path(__file__).parent
-IN_JSON  = BASE_DIR.parent / "PDF_Extraction" / "manual_2006.json"
+IN_JSON = BASE_DIR.parent / "PDF_Extraction" / "manual_2006.json"
 OUT_JSON = BASE_DIR / "chunk_manual_2006.json"
 
 # Chunking params — tuned for structured legal/procurement text
@@ -16,11 +15,13 @@ CHUNK_OVERLAP = 150
 # Add more separators if your manual has (a)(b) bullets etc.
 SEPARATORS = ["\n\n", "\n", "(a)", "(b)", "(c)", "•", " - ", "—", "–", "  "]
 
+
 def load_manual(path: Path):
     if not path.exists():
         raise FileNotFoundError(f"Input JSON not found: {path}")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
 
 def build_records(manual_json: dict):
     """
@@ -31,8 +32,8 @@ def build_records(manual_json: dict):
     for ch in manual_json.get("chapters", []) or []:
         chap_title = (ch.get("title") or "").strip()
         for sec in ch.get("sections", []) or []:
-            ref     = (sec.get("guideline_reference") or "").strip()
-            title   = (sec.get("title") or "").strip()
+            ref = (sec.get("guideline_reference") or "").strip()
+            title = (sec.get("title") or "").strip()
             content = (sec.get("content") or "").strip()
             # Skip empty sections
             if not (ref or title or content or chap_title):
@@ -44,13 +45,16 @@ def build_records(manual_json: dict):
             text = "\n".join(parts).strip()
 
             if text:
-                recs.append({
-                    "chapter_title": chap_title,
-                    "guideline_reference": ref,
-                    "section_title": title,
-                    "text": text,
-                })
+                recs.append(
+                    {
+                        "chapter_title": chap_title,
+                        "guideline_reference": ref,
+                        "section_title": title,
+                        "text": text,
+                    }
+                )
     return recs
+
 
 def chunk_records(recs):
     splitter = RecursiveCharacterTextSplitter(
@@ -79,20 +83,27 @@ def chunk_records(recs):
         for idx, ch in enumerate(splitter.split_text(r["text"])):
             # Prepend hierarchy context to each chunk for better retrieval
             enriched_chunk = str(prefix) + str(ch) if prefix else str(ch)
-            out.append({
-                "source": "manual_2006",
-                "chapter_title": r["chapter_title"],
-                "guideline_reference": r["guideline_reference"],
-                "section_title": r["section_title"],
-                "chunk_index": idx,
-                "chunk": enriched_chunk,
-            })
+            out.append(
+                {
+                    "source": "manual_2006",
+                    "chapter_title": r["chapter_title"],
+                    "guideline_reference": r["guideline_reference"],
+                    "section_title": r["section_title"],
+                    "chunk_index": idx,
+                    "chunk": enriched_chunk,
+                }
+            )
     return out
+
 
 if __name__ == "__main__":
     print("Loading:", IN_JSON.resolve())
     data = load_manual(IN_JSON)
     recs = build_records(data)
     chunks = chunk_records(recs)
-    OUT_JSON.write_text(json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Flattened {len(recs)} sections; wrote {len(chunks)} chunks -> {OUT_JSON.resolve()}")
+    OUT_JSON.write_text(
+        json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(
+        f"Flattened {len(recs)} sections; wrote {len(chunks)} chunks -> {OUT_JSON.resolve()}"
+    )

@@ -3,8 +3,8 @@ from pathlib import Path
 import json
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-BASE_DIR = Path(__file__).parent   # ...\pdf extraction\Chunking
-IN_JSON  = BASE_DIR.parent / "PDF_Extraction" / "guidelines_2006.json"
+BASE_DIR = Path(__file__).parent  # ...\pdf extraction\Chunking
+IN_JSON = BASE_DIR.parent / "PDF_Extraction" / "guidelines_2006.json"
 OUT_JSON = BASE_DIR / "chunk_guidelines_2006.json"
 
 # Chunking params — tuned for structured legal/procurement text
@@ -12,16 +12,19 @@ CHUNK_SIZE = 800
 CHUNK_OVERLAP = 150
 SEPARATORS = ["\n\n", "\n", "(a)", "(b)", "(c)", "•", " - ", "—", "–", "  "]
 
+
 def load_guidelines(path: Path):
     if not path.exists():
         raise FileNotFoundError(f"Input JSON not found: {path}")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-#Flatten a section node (number/title/content/bullets) into a text blob and metadata.
+
+# Flatten a section node (number/title/content/bullets) into a text blob and metadata.
+
 
 def node_to_text(node, path_numbers):
-    
+
     num = (node.get("number") or "").strip()
     title = (node.get("title") or "").strip()
     content = (node.get("content") or "").strip()
@@ -41,18 +44,15 @@ def node_to_text(node, path_numbers):
     text = "\n\n".join(parts).strip()
 
     hierarchy = " > ".join([p for p in path_numbers + ([num] if num else []) if p])
-    meta = {
-        "number": num,
-        "title": title,
-        "hierarchy": hierarchy
-    }
+    meta = {"number": num, "title": title, "hierarchy": hierarchy}
     return text, meta
 
- #Depth-first flattening of all sections/children into (text, meta) records.
-   
+
+# Depth-first flattening of all sections/children into (text, meta) records.
+
+
 def walk_sections(sections, path_numbers=None):
-  
-   
+
     path_numbers = list(path_numbers or [])
     recs = []
     for n in sections or []:
@@ -62,6 +62,7 @@ def walk_sections(sections, path_numbers=None):
         next_path = path_numbers + ([n.get("number")] if n.get("number") else [])
         recs.extend(walk_sections(n.get("children", []) or [], next_path))
     return recs
+
 
 def chunk_records(records):
     splitter = RecursiveCharacterTextSplitter(
@@ -88,13 +89,16 @@ def chunk_records(records):
         for idx, ch in enumerate(splitter.split_text(text)):
             # Prepend hierarchy context to each chunk for better retrieval
             enriched_chunk = str(prefix) + str(ch) if prefix else str(ch)
-            out.append({
-                "source": "guidelines_2006",
-                **meta,
-                "chunk_index": idx,
-                "chunk": enriched_chunk,
-            })
+            out.append(
+                {
+                    "source": "guidelines_2006",
+                    **meta,
+                    "chunk_index": idx,
+                    "chunk": enriched_chunk,
+                }
+            )
     return out
+
 
 if __name__ == "__main__":
     data = load_guidelines(IN_JSON)
@@ -110,6 +114,10 @@ if __name__ == "__main__":
         all_records.extend(walk_sections(sections, path_prefix))
 
     chunks = chunk_records(all_records)
-    OUT_JSON.write_text(json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Loaded {len(chapters)} chapters, flattened {len(all_records)} section records.")
+    OUT_JSON.write_text(
+        json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+    print(
+        f"Loaded {len(chapters)} chapters, flattened {len(all_records)} section records."
+    )
     print(f"Wrote {len(chunks)} chunks -> {OUT_JSON.resolve()}")

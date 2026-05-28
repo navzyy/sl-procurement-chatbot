@@ -18,47 +18,51 @@ from rank_bm25 import BM25Okapi
 
 from fastapi.middleware.cors import CORSMiddleware
 
-
-
-# ----------------------------
 # Paths
-# ----------------------------
-BASE = Path(__file__).parent              # Retrieval/
-ROOT = BASE.parent                        # PDF EXTRACTION/
-CHUNK_DIR = ROOT / "Chunking"             # chunk jsons
-META_DIR = ROOT / "Embedding"             # meta jsons
-VDB_DIR = ROOT / "VectorDB"               # npz + faiss index
 
-# ----------------------------
+BASE = Path(__file__).parent  # Retrieval/
+ROOT = BASE.parent  # PDF EXTRACTION/
+CHUNK_DIR = ROOT / "Chunking"  # chunk jsons
+META_DIR = ROOT / "Embedding"  # meta jsons
+VDB_DIR = ROOT / "VectorDB"  # npz + faiss index
+
+
 # Load guidelines files
-# ----------------------------
-GUIDE_META = json.loads((META_DIR / "emb_guidelines_2006_meta.json").read_text(encoding="utf-8"))
-GUIDE_CHUNKS = json.loads((CHUNK_DIR / "chunk_guidelines_2006.json").read_text(encoding="utf-8"))
+
+GUIDE_META = json.loads(
+    (META_DIR / "emb_guidelines_2006_meta.json").read_text(encoding="utf-8")
+)
+GUIDE_CHUNKS = json.loads(
+    (CHUNK_DIR / "chunk_guidelines_2006.json").read_text(encoding="utf-8")
+)
 GUIDE_INDEX = faiss.read_index(str(VDB_DIR / "faiss_guidelines_2006.index"))
 
-# ----------------------------
+
 # Load manual files
-# ----------------------------
-MANUAL_META = json.loads((META_DIR / "emb_manual_2006_meta.json").read_text(encoding="utf-8"))
-MANUAL_CHUNKS = json.loads((CHUNK_DIR / "chunk_manual_2006.json").read_text(encoding="utf-8"))
+
+MANUAL_META = json.loads(
+    (META_DIR / "emb_manual_2006_meta.json").read_text(encoding="utf-8")
+)
+MANUAL_CHUNKS = json.loads(
+    (CHUNK_DIR / "chunk_manual_2006.json").read_text(encoding="utf-8")
+)
 MANUAL_INDEX = faiss.read_index(str(VDB_DIR / "faiss_manual_2006.index"))
 
 
-# ----------------------------
 # Load embedding model (must match the model used for creating embeddings)
-# ----------------------------
+
 EMBED_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 embed_model = SentenceTransformer(EMBED_MODEL_NAME)
 
-# ----------------------------
+
 # Load cross-encoder re-ranker for precision
-# ----------------------------
+
 RERANKER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-12-v2"
 reranker = CrossEncoder(RERANKER_MODEL_NAME)
 
-# ----------------------------
+
 # Build BM25 indexes for hybrid search (keyword matching)
-# ----------------------------
+
 ALL_CHUNKS_COMBINED = []
 CHUNK_SOURCE_MAP = []  # track which source each chunk came from
 
@@ -74,32 +78,34 @@ for i, chunk in enumerate(MANUAL_CHUNKS):
 tokenized_corpus = [chunk["chunk"].lower().split() for chunk in ALL_CHUNKS_COMBINED]
 bm25_index = BM25Okapi(tokenized_corpus)
 
-# ----------------------------
+
 # FastAPI setup
-# ----------------------------
+
 app = FastAPI(title="Procurement RAG API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # in production restrict this to your frontend origin
+    allow_origins=["*"],  # in production restrict this to your frontend origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ----------------------------
+
 # In-memory conversation store
-# ----------------------------
+
 # Stores chat history per session: { session_id: [ {role, content}, ... ] }
 CONVERSATIONS: dict[str, list[dict]] = {}
 MAX_HISTORY_TURNS = 6  # keep last 6 exchanges (12 messages) for context
 
-# ----------------------------
+
 # Pydantic models
-# ----------------------------
+
+
 class Query(BaseModel):
     question: str
     session_id: str | None = None  # optional: pass to enable chat history
+
 
 class SourceChunk(BaseModel):
     score: float
@@ -107,15 +113,15 @@ class SourceChunk(BaseModel):
     number: str | None = None
     title: str | None = None
 
+
 class AnswerResponse(BaseModel):
     answer: str
     sources: list[SourceChunk]
     session_id: str  # return so frontend can track the session
 
 
-# ----------------------------
 # System prompt (separated from user content)
-# ----------------------------
+
 SYSTEM_PROMPT = """You are an expert, friendly, and helpful research assistant specialized exclusively in
 Sri Lanka Government Procurement Guidelines 2006 (Goods & Works)
 and the Procurement Manual 2006.
@@ -161,16 +167,14 @@ PRIMARY OBJECTIVE:
 Provide accurate, concise, citation-grounded answers for procurement questions with zero hallucination, while maintaining a friendly, natural conversational tone for general inquiries."""
 
 
-# ----------------------------
 # Vector retrieval - Guidelines + Manual
-# ----------------------------
+
+
 def retrieve_vector(query: str, k: int = 15):
     """Retrieve top-k chunks from both Guidelines and Manual FAISS indexes."""
     # bge models recommend "Represent this sentence: " prefix for queries
     q_vec = embed_model.encode(
-        [query],
-        normalize_embeddings=True,
-        convert_to_numpy=True
+        [query], normalize_embeddings=True, convert_to_numpy=True
     ).astype("float32")
 
     # Search Guidelines
@@ -186,13 +190,15 @@ def retrieve_vector(query: str, k: int = 15):
             continue  # FAISS returns -1 if not enough results
         meta = GUIDE_META[idx]
         chunk_text = GUIDE_CHUNKS[idx]["chunk"]
-        results.append({
-            "score": float(dist),
-            "chunk": chunk_text,
-            "source": meta.get("source", "Guidelines 2006"),
-            "number": meta.get("number", ""),
-            "title": meta.get("title", "")
-        })
+        results.append(
+            {
+                "score": float(dist),
+                "chunk": chunk_text,
+                "source": meta.get("source", "Guidelines 2006"),
+                "number": meta.get("number", ""),
+                "title": meta.get("title", ""),
+            }
+        )
 
     # Collect manual chunks
     for dist, idx in zip(Dm[0], Im[0]):
@@ -200,20 +206,22 @@ def retrieve_vector(query: str, k: int = 15):
             continue
         meta = MANUAL_META[idx]
         chunk_text = MANUAL_CHUNKS[idx]["chunk"]
-        results.append({
-            "score": float(dist),
-            "chunk": chunk_text,
-            "source": meta.get("source", "Manual 2006"),
-            "number": meta.get("number", ""),
-            "title": meta.get("title", "")
-        })
+        results.append(
+            {
+                "score": float(dist),
+                "chunk": chunk_text,
+                "source": meta.get("source", "Manual 2006"),
+                "number": meta.get("number", ""),
+                "title": meta.get("title", ""),
+            }
+        )
 
     return results
 
 
-# ----------------------------
 # BM25 keyword retrieval
-# ----------------------------
+
+
 def retrieve_bm25(query: str, k: int = 15):
     """Retrieve top-k chunks using BM25 keyword matching."""
     tokenized_query = query.lower().split()
@@ -232,21 +240,25 @@ def retrieve_bm25(query: str, k: int = 15):
         else:
             meta = MANUAL_META[original_idx] if original_idx < len(MANUAL_META) else {}
 
-        results.append({
-            "score": float(scores[idx]),
-            "chunk": chunk_data["chunk"],
-            "source": meta.get("source", chunk_data.get("source", "")),
-            "number": meta.get("number", ""),
-            "title": meta.get("title", chunk_data.get("section_title", ""))
-        })
+        results.append(
+            {
+                "score": float(scores[idx]),
+                "chunk": chunk_data["chunk"],
+                "source": meta.get("source", chunk_data.get("source", "")),
+                "number": meta.get("number", ""),
+                "title": meta.get("title", chunk_data.get("section_title", "")),
+            }
+        )
 
     return results
 
 
-# ----------------------------
 # Reciprocal Rank Fusion (RRF) to merge vector + BM25 results
-# ----------------------------
-def reciprocal_rank_fusion(vector_results: list[dict], bm25_results: list[dict], k_rrf: int = 60):
+
+
+def reciprocal_rank_fusion(
+    vector_results: list[dict], bm25_results: list[dict], k_rrf: int = 60
+):
     """Merge two ranked lists using RRF. Higher is better."""
     chunk_scores: dict[str, float] = {}
     chunk_map: dict[str, dict] = {}
@@ -265,7 +277,9 @@ def reciprocal_rank_fusion(vector_results: list[dict], bm25_results: list[dict],
             chunk_map[chunk_key] = r
 
     # Sort by combined RRF score
-    sorted_keys = sorted(chunk_scores.keys(), key=lambda k: chunk_scores[k], reverse=True)
+    sorted_keys = sorted(
+        chunk_scores.keys(), key=lambda k: chunk_scores[k], reverse=True
+    )
 
     results = []
     for key in sorted_keys:
@@ -276,9 +290,9 @@ def reciprocal_rank_fusion(vector_results: list[dict], bm25_results: list[dict],
     return results
 
 
-# ----------------------------
 # Hybrid retrieval: Vector + BM25 + RRF
-# ----------------------------
+
+
 def retrieve_hybrid(query: str, k: int = 20):
     """Hybrid search combining vector similarity and BM25 keyword matching."""
     vector_results = retrieve_vector(query, k=k)
@@ -287,9 +301,9 @@ def retrieve_hybrid(query: str, k: int = 20):
     return combined[:k]
 
 
-# ----------------------------
 # Cross-encoder re-ranking
-# ----------------------------
+
+
 def rerank(query: str, results: list[dict], top_n: int = 5) -> list[dict]:
     """Re-rank retrieved chunks using a cross-encoder for higher precision."""
     if not results:
@@ -305,9 +319,9 @@ def rerank(query: str, results: list[dict], top_n: int = 5) -> list[dict]:
     return results[:top_n]
 
 
-# ----------------------------
 # Build context text from retrieved chunks
-# ----------------------------
+
+
 def build_context_text(contexts: list[dict]) -> str:
     """Format retrieved chunks into a labeled context string."""
     context_blocks = []
@@ -331,10 +345,10 @@ def build_context_text(contexts: list[dict]) -> str:
     return "\n\n".join(context_blocks)
 
 
-# ----------------------------
 # Groq LLM call
-# ----------------------------
+
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
 
 def call_llm_groq(messages: list[dict]) -> str:
     """
@@ -394,9 +408,9 @@ def call_llm_groq(messages: list[dict]) -> str:
     return "Groq error: maximum retries exceeded due to rate limits."
 
 
-# ----------------------------
 # Query rewriting for follow-up questions
-# ----------------------------
+
+
 def rewrite_query(question: str, history: list[dict]) -> str:
     """
     Use LLM to rewrite follow-up questions into self-contained queries.
@@ -407,13 +421,28 @@ def rewrite_query(question: str, history: list[dict]) -> str:
 
     # Only rewrite if the question seems like a follow-up
     follow_up_indicators = [
-        "that", "this", "it", "those", "these", "above", "mentioned",
-        "more", "detail", "explain", "elaborate", "what about",
-        "how about", "same", "previous", "earlier"
+        "that",
+        "this",
+        "it",
+        "those",
+        "these",
+        "above",
+        "mentioned",
+        "more",
+        "detail",
+        "explain",
+        "elaborate",
+        "what about",
+        "how about",
+        "same",
+        "previous",
+        "earlier",
     ]
 
     question_lower = question.lower()
-    is_follow_up = any(indicator in question_lower for indicator in follow_up_indicators)
+    is_follow_up = any(
+        indicator in question_lower for indicator in follow_up_indicators
+    )
 
     if not is_follow_up:
         return question
@@ -444,9 +473,9 @@ Rewritten self-contained question:"""
     return rewritten.strip()
 
 
-# ----------------------------
 # Retrieve all relevant chunks (used by RAGAS evaluation scripts)
-# ----------------------------
+
+
 def retrieve_all(query: str, k: int = 10) -> list[dict]:
     """Retrieve and re-rank chunks without calling the LLM.
     Returns the top-k re-ranked context dicts."""
@@ -454,9 +483,9 @@ def retrieve_all(query: str, k: int = 10) -> list[dict]:
     return rerank(query, candidates, top_n=k)
 
 
-# ----------------------------
 # Full RAG pipeline with all optimizations
-# ----------------------------
+
+
 def answer_rag(question: str, session_id: str | None = None) -> AnswerResponse:
     """
     Optimized RAG pipeline:
@@ -470,10 +499,10 @@ def answer_rag(question: str, session_id: str | None = None) -> AnswerResponse:
     # Create or reuse session
     if not session_id:
         session_id = str(uuid.uuid4())
-    
+
     if session_id not in CONVERSATIONS:
         CONVERSATIONS[session_id] = []
-    
+
     history = CONVERSATIONS[session_id]
 
     # Step 1: Rewrite follow-up questions for better retrieval
@@ -487,13 +516,11 @@ def answer_rag(question: str, session_id: str | None = None) -> AnswerResponse:
     context_text = build_context_text(contexts)
 
     # Step 4: Build message list: system + history + current question with context
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT}
-    ]
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
 
     # Add recent conversation history (last N turns)
     # This lets the LLM understand follow-up questions like "tell me more"
-    recent_history = history[-(MAX_HISTORY_TURNS * 2):]
+    recent_history = history[-(MAX_HISTORY_TURNS * 2) :]
     messages.extend(recent_history)
 
     # Add current user question with retrieved context
@@ -517,7 +544,7 @@ Answer concisely and in a human-friendly tone. For procurement matters, use ONLY
 
     # Trim old history to avoid token overflow
     if len(history) > MAX_HISTORY_TURNS * 2:
-        CONVERSATIONS[session_id] = history[-(MAX_HISTORY_TURNS * 2):]
+        CONVERSATIONS[session_id] = history[-(MAX_HISTORY_TURNS * 2) :]
 
     # Build source list
     srcs: list[SourceChunk] = [
@@ -533,22 +560,20 @@ Answer concisely and in a human-friendly tone. For procurement matters, use ONLY
     return AnswerResponse(answer=answer, sources=srcs, session_id=session_id)
 
 
-# ----------------------------
 # FastAPI endpoints
-# ----------------------------
+
 
 @app.get("/")
 def root():
     return {"message": "Procurement RAG API is running"}
 
+
 @app.post("/ask", response_model=AnswerResponse)
 def ask_endpoint(q: Query):
     return answer_rag(q.question, q.session_id)
 
-origins = [
-    "http://localhost:5173",
-    "https://your-frontend-name.vercel.app"
-]
+
+origins = ["http://localhost:5173", "https://sl-procurement-chatbot.vercel.app"]
 
 app.add_middleware(
     CORSMiddleware,
